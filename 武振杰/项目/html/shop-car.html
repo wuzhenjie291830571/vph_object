@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" href="../css/shop-car.css">
+	<script src="../js/cookie.js"></script>
+	<script src="../js/jquery.js"></script>
+	<script src="../js/shop-car.js"></script>
+</head>
+<body>
+	<!-- 页眉 start-->
+<header>
+	<div class="header-inner">
+		<div class="logo">
+			<a href=""></a>
+		</div>
+		<div class="header-top">
+			<div class="header-user">
+				<span>你好,</span>
+				<a href="login.html" class="user">请登录</a>
+				<a href="" class="grade"></a>
+				<a href="" class="out">[退出]</a>
+				<a href="" class="manage">订单管理</a>
+				<span class="header-phone"><i class="phone-icon"></i>400-6789-888</span>
+				<a href="" class="service"><i class="service-icon"></i>在线客服</a>
+				<a href="" class="vip"><i class="vip-icon"></i>会员服务</a>
+			</div>
+			<ul class="header-list">
+				<li class="h-l-1">
+					<i class="h-icon1"></i>
+					<span>100%正品保证</span>
+				</li>
+				<li class="h-l-2">
+					<i class="h-icon2"></i>
+					<span>七天无理由放心退</span>
+				</li>
+				<li class="h-l-3">
+					<i class="h-icon3"></i>
+					<span>退货返运费</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+</header>
+	<!-- 页眉 end-->
+	<!-- 支付过vhrng -->
+<div class="container">
+	<!-- 进度 -->
+	<div class="pay-process">
+		<ul>
+			<li>
+				<a href="" class="pay-pro1">
+					<div class="process-1 pay-img1"></div>
+					<div class="process-2 pay-p-img1"></div>
+				</a>
+				<div class="pay-item pay-it1">查看购物袋</div>
+			</li>
+			<li>
+				<a href="" class="pay-pro2">
+					<div class="process-1 pay-img2"></div>
+					<div class="process-2 pay-p-img2"></div>
+				</a>
+				<div class="pay-item pay-it2">确认收货订单</div>
+			</li>	
+			<li style="width:50px;">
+				<a href="" class="pay-pro3" style="width:50px;">
+					<div class="process-1 pay-img3"></div>
+				</a>
+				<div class="pay-item pay-it3">成功提交订单</div>
+			</li>
+		</ul>
+	</div>
+	<!-- 支付倒计时 -->
+	<div class="pay-time">
+		<h4>购物袋</h4>
+		<div class="p-endtime">
+			<p class="end-time">请在 <span class="minute">00</span> 分 <span class="second">00</span> 秒 内提交订单，下单后你有30分钟的支付时间。</p>
+		</div>
+	</div>
+	<!-- 商品详情 -->
+	<div class="product">
+		<div class="product-title">
+			<h4>唯品自营</h4>
+			<ul>
+				<li>单价</li>
+				<li>数量</li>
+				<li>小计</li>
+				<li style="width:75px;">操作</li>
+			</ul>
+		</div>
+		<div class="product-list">
+			<div class="pro-item">
+				<!-- 商品 图片 详情 -->
+				<div class="pro-info">
+					<div class="pro-img">
+						<a href=""><img src="../images/e8c2a8ff-945d-4a07-aaa3-019af6d89277.jpg" alt=""></a>
+					</div>
+					<div class="pro-tip">
+						<a href="" class="pro-tip-info">法曼斯fomoce男装专场 - 商务系列 多色可选纯羊毛V领毛衣
+						</a>
+						<span class="pro-tip-size">尺码:<i class="pro-num">56</i></span>
+					</div>
+				</div>
+				<!-- 价格 -->
+				<div class="pro-price">
+					<span class="now-p"><i>￥</i><i class="nowPrice">438</i></span>
+					<span class="end-p"><i>￥</i>1480</span>
+				</div>
+				<!-- 数量 -->
+				<div class="count">
+					<div class="subtract"></div>
+					<div class="num">1</div>
+					<div class="add"></div>
+				</div>
+				<!-- 小计 -->
+				<div class="count-price">
+					 <span>￥<i class="add-price">438</i></span>
+				</div>
+				<!-- 操作 -->
+				<div class="delete">
+					删除
+				</div>
+			</div>
+		</div>
+		<div class="product-footer">
+			<span>运费</span>
+			<i>本组商品已免运费</i>
+		</div>
+	</div>
+	<div class="account">
+		<div class="account-top">
+			<div class="acc-num">
+				<div class="acc-num-left">
+					<p>共 <i class="count-num">1</i> 件商品 商品金额</p>
+					<p>总金额（已免运费）</p>
+				</div>
+				<div class="acc-num-right">
+					<p><i>￥</i><span class="pay-money">438</span></p>
+					<p class="pay-count-p"><i>￥</i><span class="final-money">438</span></p>
+				</div>
+			</div>
+		</div>
+		<div class="account-bottom">
+			<div class="p-endtime"  id="">
+				<p class="end-time" id="account-time" >请在 <span class="minute">00</span> 分 <span class="second">00</span> 秒 内提交订单，下单后你有30分钟的支付时间。
+				</p>
+				<div class="final"><a href="">立即结算</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="promise-img">
+			<div class="promise-imgs pms-i-1"></div>
+			<div class="promise-imgs pms-i-2"></div>
+			<div class="promise-imgs pms-i-3" style="margin:0"></div>
+		</div>
+</div>
+<!-- 底部 -->
+<footer>
+    <footer class="footer-inner">
+        <p id="footer-info-link">
+            <a href="">关于我们</a>
+            <a href="">|&ensp;About us</a>
+            <a href="">|&ensp;Investor Relations</a>
+            <a href="">|&ensp;媒体报道</a>
+            <a href="">|&ensp;品牌招商</a>
+            <a href="">|&ensp;唯品诚聘</a>
+            <a href="">|&ensp;365爱心基金</a>
+            <a href="">|&ensp;唯品卡</a>
+            <a href="">|&ensp;唯品地图</a>
+            <a href="">|&ensp;品牌大全</a>
+            <a href="">|&ensp;联系我们</a>
+        </p>
+        <div id="footer-dibu">
+            <p style="padding-top:20px;">
+            Copyright © 2008-2016 vip.com，All Rights Reserved <a href="">粤ICP备08114786号</a><a href="">&nbsp;ICP经营许可证：粤B2-20080329 </a><a href="">网络文化经营许可证：粤网文〔2015〕1528-229</a>
+            </p>
+            <p><a id="police" href=""><i></i>粤公网安备 44010302111111号</a>  使用本网站即表示接受<a href="">唯品会用户协议</a>。版权所有 <a href="">&nbsp;广州唯品会信息科技有限公司</a></p>
+        </div>
+        <div id="footer-img">
+            <a href="" class="footer-img1"></a>
+            <a href="" class="footer-img2"></a>
+            <a href="" class="footer-img3"></a>
+            <a href="" class="footer-img4"></a>
+            <a href="" class="footer-img5"></a>
+            <a href="" class="footer-img6"></a>
+            <a href="" class="footer-img7"></a>
+        </div>
+    </footer>
+</footer>
+</body>
+</html>

@@ -1,0 +1,3361 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/boot.css"/>
+    <link rel="stylesheet" href="../css/index-contain.css"/>
+    <title>唯品会-一家专门做特卖的网站</title>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/boot.js"></script>
+    <script src="../js/index-main.js"></script>
+</head>
+<body>
+<!--header start-->
+<header>
+    <!--页眉 start-->
+    <nav>
+        <div id="nav-inner">
+            <div class="nav-inner-left">
+                <a href="#" id="bj" >北京</a>
+                <i class="ico-triangle"></i>
+                <!-- 地址框 -->
+                <div id="area">
+                    <div id="area-inner">
+                        <p>请选择所在的收货地区</p>
+                        <ul id="area-ul"></ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-inner-right">
+                <ul id="nav-top">
+                    <li id="nav-login">
+                        <a href="#" 
+                        ><b id="re-login">请登录</b><i class="ico-triangle"></i></a>
+                        <span></span>
+                        <!--登录下拉框-->
+                        <div id="nav-login-area">
+                            <p id="login2"><a href="" id="re-login1">欢迎回来[请登录]</a></p>
+                        <ul id="login-area-ul" style="width:200px;height:65px;margin:0 auto">
+                            <li><a href="#">我的收藏</a></li>
+                            <li><a href="#">我的订单</a></li>
+                            <li><a href="#">账户余额</a></li>
+                            <li><a href="#">我的优惠卷</a></li>
+                            <li><a href="#">我的唯品币</a></li>
+                            <li><a href="#">唯品金融</a></li>
+                        </ul>
+                        </div>
+                    </li>
+                    <li id="regist">
+                        <a href="register.html">注册</a>
+                        <span></span>
+                    </li>
+                    <li>
+                        <a href="#">我的订单</a>
+                        <span></span>
+                    </li>
+                    <li id="enshrine">
+                        <a href="#">我的收藏
+                            <i class="ico-triangle"></i>
+                        </a>
+                        <span></span>
+                        <div id="enshrine-area">
+                            <ul>
+                                <li><a href="">店家收藏&nbsp;(<b> 0</b>&nbsp;)</a></li>
+                                <li><a href="">商品收藏&nbsp;(<b> 0</b>&nbsp;)</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li id="club">
+                        <a href="#">会员俱乐部
+                            <i class="ico-triangle"></i>
+                        </a>
+                        <span></span>
+                        <div id="club-area">
+                            <ul>
+                                <li><a href="#">俱乐部首页</a></li>
+                                <li><a href="#">唯品币兑换</a></li>
+                                <li><a href="#">免费抽大奖</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li id="service">
+                        <a href="#">客户服务
+                            <i class="ico-triangle"></i>
+                        </a>
+                        <span></span>
+                        <div id="service-area">
+                            <ul>
+                                <li><a href="#">联系客服</a></li>
+                                <li><a href="#">帮助中心</a></li>
+                                <li><a href="#">服务中心</a></li>
+                                <li><a href="#">知识产权投诉</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li id="phone">
+                        <a href="#"><i class="ico-iphone"></i>手机版</a>
+                        <span></span>
+
+                        <div id="phone-area">
+                            <img src="../images/erweima.jpg"/>
+                            <p>扫一扫，优惠更多</p>
+                        </div>
+                    </li>
+                    <li id="more">
+                        <a href="#">更多
+                            <i class="ico-triangle"></i>
+                        </a>
+                        <div id="more-area">
+                        <p>关于我们</p>
+                            <ul id="more-area-ul">
+                                <li><a href="#">合作专区</a></li>
+                                <li><a href="#">品牌招商</a></li>
+                                <li><a href="#">官方微博</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- 页眉 ending-->
+    <!--logo start-->
+    <div class="header-logo">
+        <div class="header-logo-inner">
+            <div class="logo">
+                <a href="#"><img src="../images/logo.png" alt=""/></a>
+            </div>
+            <div style="width:520px;height:100px;float:right">
+                <div class="header-shop-car">
+                    <a href="shop-car.html">
+                        <span></span>
+                        <i>1</i>
+                        我的购物车</a>
+                </div>
+                <div class="header-logo-right">
+                    <img src="../images/1466131264367.png" alt=""/>
+                    <img src="../images/1466131266290.png" alt=""/>
+                    <img src="../images/1466131268726.png" alt=""/>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--logo ending-->
+    <!-- nav start-->
+    <nav class="main-nav">
+        <div class="main-nav-inner">
+            <ul>
+                <li><a href="" style="background:#bd1067">首页</a></li>
+                <li><a href="">唯品国际</a></li>
+                <li><a href="">母婴</a></li>
+                <li><a href="">居家</a></li>
+                <li><a href="men-index.html">男士</a></li>
+                <li><a href="">美妆</a></li>
+                <li><a href="life.html" >生活</a></li>
+                <li><a href="">金融</a></li>
+                <li id="more-group"><a href="">更多 <span class="ico-triangle"></span></a>
+                    <div class="more-group-area">
+                    <ul id="more-group-area-ul">
+                        <li>
+                            <img src="../images/1467620677036.jpg" alt=""/>
+                            <div><span>女装</span></div>
+                        </li>
+                        <li>
+                            <img src="../images/1467620750077.jpg" alt=""/>
+                            <div><span>鞋包</span></div>
+                        </li>
+                        <li>
+                            <img src="../images/1467620773404.jpg" alt=""/>
+                            <div><span>配饰</span></div>
+                        </li>
+                        <li>
+                            <img src="../images/1467620790247.jpg" alt=""/>
+                            <div><span>运动</span></div>
+                        </li>
+                        <li>
+                            <img src="../images/1467620809555.jpg" alt=""/>
+                            <div><span>汽车</span></div>
+                        </li>
+                        <li>
+                            <img src="../images/1467620841997.jpg" alt=""/>
+                            <div><span>爱奢品</span></div>
+                        </li>
+                    </ul>
+                    </div>
+                </li>
+                <li><a href=""><span class="yugao-icon"></span>预告</a></li>
+            </ul>
+            <div class="nav-category"><a href=""><span></span>分类</a></div>
+        </div>
+    </nav>
+</header>
+<div style="clear:both"></div>
+<!-- header end-->
+<!--banner start-->
+<div class="banner">
+    <div class="banner-inner">
+        <div class="lunbo">
+            <ul id="lunbo-ul1">
+                <li><a href=""><img src="../images/14773887665980.jpg" alt=""/></a></li>
+                <li><a href=""><img src="../images/14774748472058.jpg" alt=""/></a></li>
+                <li><a href=""><img src="../images/14775663327705.jpg" alt=""/></a></li>
+                <li><a href=""><img src="../images/14776466986982.jpg" alt=""/></a></li>
+            </ul>
+            <ul id="lunbo-ul2">
+                <li ><a href="">VIP大牌日 满999减100</a><span>|</span></li>
+                <li><a href="">运动大牌 最高满298减80</a><span>|</span></li>
+                <li><a href="">羊绒保暖季 2件8.8折</a><span>|</span></li>
+                <li class="lunbo-active"><a href="">玉兰油品牌钜献 满200减50</a></li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+<!--banner ending-->
+<!--主体内容 start-->
+<div class="container">
+<!-- 左边导航栏 -->
+    <div class="left-side">
+        <ul class="left-side-ul">
+            <li class="left-side-active">精选&gt;</li>
+            <li class="number">女装&gt;</li>
+            <li class="number">鞋包&gt;</li>
+            <li class="number">男士&gt;</li>
+            <li class="number">运动&gt;</li>
+            <li class="number">饰品&gt;</li>
+            <li class="number">美妆&gt;</li>
+            <li class="number">母婴&gt;</li>
+            <li class="number">居家&gt;</li>
+            <li class="number">国际&gt;</li>
+            <li class="number">生活&gt;</li>
+            <li class="number">预告&gt;</li>
+        </ul>
+    </div>  
+<!--     新特卖 start  -->
+<!-- 1111111111111111111111111111111111111111111111111 -->
+    <div class="new-sale">
+        <div>
+            <img src="../images/today_DDp.png" id="new-sale"
+            alt=""/>
+        </div>
+        <div class="hot-sale">
+            <div class="hot-sale-select">
+                <div class="hot-sale-select-heitou"></div>
+                <a href=""><img src="../images/07368603.jpg" alt=""/></a>
+                <a href="" class="hot-sale-select-baika">
+                    <img src="../images/07367937.png" alt=""/>
+                    <p class="hot-sale-title">跨界融合 简约时尚</p>
+                    <p class="hot-sale-list">购物满2件即享8.5折，满3件即享8折</p>
+                </a> 
+                <div class="select-hover">
+                    <a href="">
+                        <img src="../images/6101350-907-5.jpg" alt="">
+                        <span>¥1098</span>
+                    </a>
+                    <a href="">
+                        <img src="../images/6101351-907-5.jpg" alt="">
+                        <span>¥1098</span>
+                    </a>
+                    <a href="">
+                        <img src="../images/6101462-520-5.jpg" alt="">
+                        <span>¥1098</span>
+                    </a>
+                    <div style="clear:both"></div>
+                    <div class="select-hover-list">
+                        <a href=""><img src="../images/45383795.png" alt=""></a>
+                        <p class="select-hover-list-like"><a href="">收藏品牌</a></p>
+                        <p class="select-hover-list-enterbutton"><a href="">进入专场</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="hot-sale-select">
+                <div class="hot-sale-select-heitou"></div>
+                <a href=""><img src="../images/45125212.jpg" alt=""/></a>
+                <a href="" class="hot-sale-select-baika">
+                    <img src="../images/07367937.png" alt=""/>
+                    <p class="hot-sale-title">跨界融合 简约时尚</p>
+                    <p class="hot-sale-list">购物满2件即享8.5折，满3件即享8折</p>
+                </a> 
+                <div class="select-hover">
+                    <a href="">
+                        <img src="../images/0bd89ac4-6ac0-42ad-b52c-23e2bb9a3bb3.jpg" alt="">
+                        <span>¥1098</span>
+                    </a>
+                    <a href="">
+                        <img src="../images/1fdab6ad-b045-4fb7-85b7-6eb242b59975.jpg" alt="">
+                        <span>¥1098</span>
+                    </a>
+                    <a href="">
+                        <img src="../images/99c47960-4760-41ed-b68d-35a12c4a5efe.jpg" alt="">
+                        <span>¥1098</span>
+                    </a>
+                    <div style="clear:both"></div>
+                    <div class="select-hover-list">
+                        <a href=""><img src="../images/45383795.png" alt=""></a>
+                        <p class="select-hover-list-like"><a href="">收藏品牌</a></p>
+                        <p class="select-hover-list-enterbutton"><a href="">进入专场</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="hot-sale-select">
+                <div class="hot-sale-select-heitou"></div>
+                <a href=""><img src="../images/51246029.jpg" alt=""/></a>
+                <a href="" class="hot-sale-select-baika">
+                    <img src="../images/51245219.png" alt=""/>
+                    <p class="hot-sale-title">跨界融合 简约时尚</p>
+                    <p class="hot-sale-list">购物满2件即享8.5折，满3件即享8折</p>
+                </a> 
+                <div class="select-hover">
+                    <a href="">
+                        <img src="../images/AB8644-5.jpg" alt="">
+                        <span>¥1098</span>
+                    </a>
+                    <a href="">
+                        <img src="../images/68f25a40-dfc1-4caa-8de7-9b598cd68a23.jpg" alt="">
+                        <span>¥1098</span>
+                    </a>
+                    <a href="">
+                        <img src="../images/80b1fbe5-9864-4a13-8dca-a46f8435f8c2.jpg" alt="">
+                        <span>¥1098</span>
+                    </a>
+                    <div style="clear:both"></div>
+                    <div class="select-hover-list">
+                        <a href=""><img src="../images/51245219.png" alt=""></a>
+                        <p class="select-hover-list-like"><a href="">收藏品牌</a></p>
+                        <p class="select-hover-list-enterbutton"><a href="">进入专场</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="hot-sale-select">
+                <div class="hot-sale-select-heitou"></div>
+                <a href=""><img src="../images/07368603.jpg" alt=""/></a>
+                <a href="" class="hot-sale-select-baika">
+                    <img src="../images/07367937.png" alt=""/>
+                    <p class="hot-sale-title">跨界融合 简约时尚</p>
+                    <p class="hot-sale-list">购物满2件即享8.5折，满3件即享8折</p>
+                </a> 
+                <div class="select-hover">
+                    <a href="">
+                        <img src="../images/6101350-907-5.jpg" alt="">
+                        <span>¥1098</span>
+                    </a>
+                    <a href="">
+                        <img src="../images/6101351-907-5.jpg" alt="">
+                        <span>¥1098</span>
+                    </a>
+                    <a href="">
+                        <img src="../images/6101462-520-5.jpg" alt="">
+                        <span>¥1098</span>
+                    </a>
+                    <div style="clear:both"></div>
+                    <div class="select-hover-list">
+                        <a href=""><img src="../images/45383795.png" alt=""></a>
+                        <p class="select-hover-list-like"><a href="">收藏品牌</a></p>
+                        <p class="select-hover-list-enterbutton"><a href="">进入专场</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="hot-sale-select">
+                <div class="hot-sale-select-heitou"></div>
+                <a href=""><img src="../images/07368603.jpg" alt=""/></a>
+                <a href="" class="hot-sale-select-baika">
+                    <img src="../images/07367937.png" alt=""/>
+                    <p class="hot-sale-title">跨界融合 简约时尚</p>
+                    <p class="hot-sale-list">购物满2件即享8.5折，满3件即享8折</p>
+                </a> 
+                <div class="select-hover">
+                    <a href="">
+                        <img src="../images/6101350-907-5.jpg" alt="">
+                        <span>¥1098</span>
+                    </a>
+                    <a href="">
+                        <img src="../images/6101351-907-5.jpg" alt="">
+                        <span>¥1098</span>
+                    </a>
+                    <a href="">
+                        <img src="../images/6101462-520-5.jpg" alt="">
+                        <span>¥1098</span>
+                    </a>
+                    <div style="clear:both"></div>
+                    <div class="select-hover-list">
+                        <a href=""><img src="../images/45383795.png" alt=""></a>
+                        <p class="select-hover-list-like"><a href="">收藏品牌</a></p>
+                        <p class="select-hover-list-enterbutton"><a href="">进入专场</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="hot-sale-select">
+                <div class="hot-sale-select-heitou"></div>
+                <a href=""><img src="../images/07368603.jpg" alt=""/></a>
+                <a href="" class="hot-sale-select-baika">
+                    <img src="../images/07367937.png" alt=""/>
+                    <p class="hot-sale-title">跨界融合 简约时尚</p>
+                    <p class="hot-sale-list">购物满2件即享8.5折，满3件即享8折</p>
+                </a> 
+                <div class="select-hover">
+                    <a href="">
+                        <img src="../images/6101350-907-5.jpg" alt="">
+                        <span>¥1098</span>
+                    </a>
+                    <a href="">
+                        <img src="../images/6101351-907-5.jpg" alt="">
+                        <span>¥1098</span>
+                    </a>
+                    <a href="">
+                        <img src="../images/6101462-520-5.jpg" alt="">
+                        <span>¥1098</span>
+                    </a>
+                    <div style="clear:both"></div>
+                    <div class="select-hover-list">
+                        <a href=""><img src="../images/45383795.png" alt=""></a>
+                        <p class="select-hover-list-like"><a href="">收藏品牌</a></p>
+                        <p class="select-hover-list-enterbutton"><a href="">进入专场</a></p>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both"></div>
+        </div>
+    </div>
+<!--     新特卖 ending  -->
+<!-- 2222222222222222222222222222222222222222222222222 -->
+<!-- 女装 start  -->
+    <div class="conmon-cloth">
+        <!-- 女装 标题 -->
+        <div class="conmon-title">
+            <img src="../images/woman_2ad.png" alt="">
+            <a href="" class="conmon-title-more">全部女装品牌<i></i></a>
+        </div>
+        <!-- 女装 标题下 -->
+        <div class="conmon-list">
+            <div class="conmon-list-left">
+                <img src="../images/left.jpg" alt="">
+                <a href=""><span>女装频道</span></a>
+            </div>
+            <div class="conmon-list-right">
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">连衣裙</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">DRESS</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#aca1dd"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">连衣裙</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">DRESS</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#aca1dd"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">连衣裙</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">DRESS</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#aca1dd"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">连衣裙</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">DRESS</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#aca1dd"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">连衣裙</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">DRESS</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#aca1dd"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">连衣裙</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">DRESS</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#aca1dd"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- 女装品牌 列表 -->
+        <!-- 列表 start -->
+        <div class="conmon-items">
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/17412890_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满300减120，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>最后约惠-宠爱一家专场</p>
+                    <p class="brand-time">剩7时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/17412890_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满300减120，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>最后约惠-宠爱一家专场</p>
+                    <p class="brand-time">剩7时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/17412890_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满300减120，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>最后约惠-宠爱一家专场</p>
+                    <p class="brand-time">剩7时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/17412890_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满300减120，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>最后约惠-宠爱一家专场</p>
+                    <p class="brand-time">剩7时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/17412890_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满300减120，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>最后约惠-宠爱一家专场</p>
+                    <p class="brand-time">剩7时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/17412890_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满300减120，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>最后约惠-宠爱一家专场</p>
+                    <p class="brand-time">剩7时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/17412890_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满300减120，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>最后约惠-宠爱一家专场</p>
+                    <p class="brand-time">剩7时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/17412890_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满300减120，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>最后约惠-宠爱一家专场</p>
+                    <p class="brand-time">剩7时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/17412890_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满300减120，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>最后约惠-宠爱一家专场</p>
+                    <p class="brand-time">剩7时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/17412890_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满300减120，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>最后约惠-宠爱一家专场</p>
+                    <p class="brand-time">剩7时</p>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+        <!-- 列表 end -->
+        <div class="conmon-bottom">
+            <div class="conmon-bottom-item">
+                <a href="">逛更多女装品牌<i></i></a>
+            </div>
+        </div>
+    </div>
+<!-- 女装 ending  -->
+<!-- 3333333333333333333333333333333333333333333333333 -->
+<!-- 鞋包 start  -->
+    <div class="conmon-cloth">
+        <!-- 鞋包 标题 -->
+        <div class="conmon-title">
+            <img src="../images/shoe.png" alt="">
+            <a href="" class="conmon-title-more">全部鞋包品牌<i></i></a>
+        </div>
+        <!-- 鞋包 标题下 -->
+        <div class="conmon-list">
+            <div class="conmon-list-left">
+                <img src="../images/left_v2.jpg" alt="">
+                <a href="" style="background:#ee6050;"><span>鞋包频道</span></a>
+            </div>
+            <div class="conmon-list-right">
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">女靴</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Boots</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#ee6050"></div>
+                    <img src="../images/item_1_v2.jpg" alt=""></a>
+                </div>
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">女靴</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Boots</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#ee6050"></div>
+                    <img src="../images/item_1_v2.jpg" alt=""></a>
+                </div>
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">女靴</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Boots</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#ee6050"></div>
+                    <img src="../images/item_1_v2.jpg" alt=""></a>
+                </div>
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">女靴</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Boots</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#ee6050"></div>
+                    <img src="../images/item_1_v2.jpg" alt=""></a>
+                </div>
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">女靴</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Boots</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#ee6050"></div>
+                    <img src="../images/item_1_v2.jpg" alt=""></a>
+                </div>
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">女靴</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Boots</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#ee6050"></div>
+                    <img src="../images/item_1_v2.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- 鞋包品牌 列表 -->
+        <!-- 列表 start -->
+        <div class="conmon-items">
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/10511588_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>购物满1件享9折，满2件享8.5折</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>妙丽Millie's女鞋专场</p>
+                    <p class="brand-time">剩2天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/10511588_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>购物满1件享9折，满2件享8.5折</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>妙丽Millie's女鞋专场</p>
+                    <p class="brand-time">剩2天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/10511588_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>购物满1件享9折，满2件享8.5折</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>妙丽Millie's女鞋专场</p>
+                    <p class="brand-time">剩2天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/10511588_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>购物满1件享9折，满2件享8.5折</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>妙丽Millie's女鞋专场</p>
+                    <p class="brand-time">剩2天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/10511588_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>购物满1件享9折，满2件享8.5折</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>妙丽Millie's女鞋专场</p>
+                    <p class="brand-time">剩2天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/10511588_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>购物满1件享9折，满2件享8.5折</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>妙丽Millie's女鞋专场</p>
+                    <p class="brand-time">剩2天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/10511588_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>购物满1件享9折，满2件享8.5折</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>妙丽Millie's女鞋专场</p>
+                    <p class="brand-time">剩2天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/10511588_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>购物满1件享9折，满2件享8.5折</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>妙丽Millie's女鞋专场</p>
+                    <p class="brand-time">剩2天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/10511588_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>购物满1件享9折，满2件享8.5折</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>妙丽Millie's女鞋专场</p>
+                    <p class="brand-time">剩2天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/10511588_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>购物满1件享9折，满2件享8.5折</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>妙丽Millie's女鞋专场</p>
+                    <p class="brand-time">剩2天</p>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+        <!-- 列表 end -->
+        <div class="conmon-bottom">
+            <div class="conmon-bottom-item">
+                <a href="">逛更多鞋包品牌<i></i></a>
+            </div>
+        </div>
+    </div>
+<!-- 鞋包 ending  -->
+<!-- 4444444444444444444444444444444444444444444444444 -->
+<!-- 男士 start  -->
+    <div class="conmon-cloth">
+        <!-- 男士 标题 -->
+        <div class="conmon-title">
+            <img src="../images/men.png" alt="">
+            <a href="" class="conmon-title-more">全部男士品牌<i></i></a>
+        </div>
+        <!-- 男士 标题下 -->
+        <div class="conmon-list">
+            <div class="conmon-list-left">
+                <img src="../images/left (1).jpg" alt="">
+                <a href="" style="background:#4467a1;"><span>男士频道</span></a>
+            </div>
+            <div class="conmon-list-right">
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">外套</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">coat</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#4467a1"></div>
+                    <img src="../images/item_1 (1).jpg" alt=""></a>
+                </div>
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">外套</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">coat</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#4467a1"></div>
+                    <img src="../images/item_1 (1).jpg" alt=""></a>
+                </div>
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">外套</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">coat</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#4467a1"></div>
+                    <img src="../images/item_1 (1).jpg" alt=""></a>
+                </div>
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">外套</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">coat</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#4467a1"></div>
+                    <img src="../images/item_1 (1).jpg" alt=""></a>
+                </div>
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">外套</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">coat</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#4467a1"></div>
+                    <img src="../images/item_1 (1).jpg" alt=""></a>
+                </div>
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">外套</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">coat</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#4467a1"></div>
+                    <img src="../images/item_1 (1).jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- 男士品牌 列表 -->
+        <!-- 列表 start -->
+        <div class="conmon-items">
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/12047359_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>免税包邮</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>瑞士TANGIN手表专场</p>
+                    <p class="brand-time">剩19时</p>
+                </div>
+            </div>
+           <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/12047359_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>免税包邮</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>瑞士TANGIN手表专场</p>
+                    <p class="brand-time">剩19时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/12047359_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>免税包邮</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>瑞士TANGIN手表专场</p>
+                    <p class="brand-time">剩19时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/12047359_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>免税包邮</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>瑞士TANGIN手表专场</p>
+                    <p class="brand-time">剩19时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/12047359_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>免税包邮</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>瑞士TANGIN手表专场</p>
+                    <p class="brand-time">剩19时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/12047359_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>免税包邮</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>瑞士TANGIN手表专场</p>
+                    <p class="brand-time">剩19时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/12047359_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>免税包邮</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>瑞士TANGIN手表专场</p>
+                    <p class="brand-time">剩19时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/12047359_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>免税包邮</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>瑞士TANGIN手表专场</p>
+                    <p class="brand-time">剩19时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/12047359_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>免税包邮</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>瑞士TANGIN手表专场</p>
+                    <p class="brand-time">剩19时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/12047359_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>免税包邮</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>瑞士TANGIN手表专场</p>
+                    <p class="brand-time">剩19时</p>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+        <!-- 列表 end -->
+        <div class="conmon-bottom">
+            <div class="conmon-bottom-item">
+                <a href="">逛更多男士品牌<i></i></a>
+            </div>
+        </div>
+    </div>
+<!-- 男士 ending  -->
+<!-- 5555555555555555555555555555555555555555555555555 -->
+<!-- 运动 start  -->
+    <div class="conmon-cloth">
+        <!-- 运动 标题 -->
+        <div class="conmon-title">
+            <img src="../images/sport.png" alt="">
+            <a href="" class="conmon-title-more">全部运动品牌<i></i></a>
+        </div>
+        <!-- 运动 标题下 -->
+        <div class="conmon-list">
+            <div class="conmon-list-left">
+                <img src="../images/left (2).jpg" alt="">
+                <a href="" style="background:#86ca42;"><span>运动频道</span></a>
+            </div>
+            <div class="conmon-list-right">
+               <div class="conmon-list-right-l">
+                   <div class="conmon-list-l-items">
+                       <a href="">
+                           <div class="conmon-list-l-items-title">女士运动衣</div>
+                           <div class="conmon-list-l-items-en">Ladies sports clothes</div>
+                           <div class="conmon-list-l-items-line"></div>
+                           <img src="../images/item_1 (2).jpg" alt="">
+                       </a>
+                   </div>
+                   <div class="conmon-list-l-items">
+                       <a href="">
+                           <div class="conmon-list-l-items-title">女士运动衣</div>
+                           <div class="conmon-list-l-items-en">Ladies sports clothes</div>
+                           <div class="conmon-list-l-items-line"></div>
+                           <img src="../images/item_1 (2).jpg" alt="">
+                       </a>
+                   </div>
+                   <div class="conmon-list-l-items">
+                       <a href="">
+                           <div class="conmon-list-l-items-title">女士运动衣</div>
+                           <div class="conmon-list-l-items-en">Ladies sports clothes</div>
+                           <div class="conmon-list-l-items-line"></div>
+                           <img src="../images/item_1 (2).jpg" alt="">
+                       </a>
+                   </div>
+                   <div class="conmon-list-l-items">
+                       <a href="">
+                           <div class="conmon-list-l-items-title">女士运动衣</div>
+                           <div class="conmon-list-l-items-en">Ladies sports clothes</div>
+                           <div class="conmon-list-l-items-line"></div>
+                           <img src="../images/item_1 (2).jpg" alt="">
+                       </a>
+                   </div>
+               </div>
+
+               <div class="conmon-list-right-r">
+                   <div class="conmon-list-right-r-title">
+                       热销大牌
+                   </div>
+                   <div class="conmon-list-right-lunbo">
+                       <ol class="conmon-list-right-r-move">
+                           <li class="oli1">●</li>
+                           <li class="oli2">●</li>
+                       </ol>
+                       <ul>
+                            <li>
+                                <div class="conmon-list-hover">Nuotando Diana & Rue Royale Diana混合专场</div>
+                                <a href="">
+                                    <img src="../images/201308021056003413.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">欧冠 UEFA CHAMPIONS LEAGUE男女混合专场</div>
+                                <a href="">
+                                    <img src="../images/2012020610224855623.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">卡帕特卖旗舰店</div>
+                                <a href="">
+                                    <img src="../images/2013012814193557533.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">犸凯奴Makino户外配件专场</div>
+                                <a href="">
+                                    <img src="../images/2013041815080675883.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">361°男女混合专场</div>
+                                <a href="">
+                                    <img src="../images/2013042410194374583.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">匡威converse特卖旗舰店</div>
+                                <a href="">
+                                    <img src="../images/2013050914415045603.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">川崎Kawasaki网羽运动系列专场</div>
+                                <a href="">
+                                    <img src="../images/2013100917354382153.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">韩国AIMUTU时尚户外服装专场</div>
+                                <a href="">
+                                    <img src="../images/2013102411221245723.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">韩国AIMUTU时尚户外服装专场</div>
+                                <a href="">
+                                    <img src="../images/2014021216595072823.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">皮尔瑜伽Pieryoga运动服饰专场</div>
+                                <a href="">
+                                    <img src="../images/2014060409093797533.jpg" alt="">
+                                </a>
+                            </li>
+                       </ul>
+                   </div>
+               </div>
+            </div>
+        </div>
+        <!-- 运动品牌 列表 -->
+        <!-- 列表 start -->
+        <div class="conmon-items">
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/56392312_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满498减100，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>New Balance复古潮鞋专场</p>
+                    <p class="brand-time">剩1天</p>
+                </div>
+            </div>
+           <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/56392312_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满498减100，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>New Balance复古潮鞋专场</p>
+                    <p class="brand-time">剩1天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/56392312_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满498减100，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>New Balance复古潮鞋专场</p>
+                    <p class="brand-time">剩1天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/56392312_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满498减100，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>New Balance复古潮鞋专场</p>
+                    <p class="brand-time">剩1天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/56392312_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满498减100，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>New Balance复古潮鞋专场</p>
+                    <p class="brand-time">剩1天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/56392312_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满498减100，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>New Balance复古潮鞋专场</p>
+                    <p class="brand-time">剩1天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/56392312_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满498减100，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>New Balance复古潮鞋专场</p>
+                    <p class="brand-time">剩1天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/56392312_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满498减100，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>New Balance复古潮鞋专场</p>
+                    <p class="brand-time">剩1天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/56392312_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满498减100，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>New Balance复古潮鞋专场</p>
+                    <p class="brand-time">剩1天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/56392312_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满498减100，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>New Balance复古潮鞋专场</p>
+                    <p class="brand-time">剩1天</p>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+        <!-- 列表 end -->
+        <div class="conmon-bottom">
+            <div class="conmon-bottom-item">
+                <a href="">逛更多运动品牌<i></i></a>
+            </div>
+        </div>
+    </div>
+<!-- 运动 ending  -->
+<!-- 6666666666666666666666666666666666666666666666666 -->
+<!-- 饰品 start  -->
+    <div class="conmon-cloth">
+        <!-- 饰品 标题 -->
+        <div class="conmon-title">
+            <img src="../images/watch.png" alt="">
+            <a href="" class="conmon-title-more">全部饰品品牌<i></i></a>
+        </div>
+        <!-- 饰品 标题下 -->
+        <div class="conmon-list">
+            <div class="conmon-list-left">
+                <img src="../images/left (3).jpg" alt="">
+                <a href="" style="background:#c89554;"><span>饰品频道</span></a>
+            </div>
+            <div class="conmon-list-right">
+               <div class="conmon-list-right-l">
+                   <div class="conmon-list-l-items">
+                       <a href="">
+                           <div class="conmon-list-l-items-title">手表</div>
+                           <div class="conmon-list-l-items-en">Watch</div>
+                           <div class="conmon-list-l-items-line"></div>
+                           <img src="../images/item_1 (3).jpg" alt="">
+                       </a>
+                   </div>
+                   <div class="conmon-list-l-items">
+                       <a href="">
+                           <div class="conmon-list-l-items-title">手表</div>
+                           <div class="conmon-list-l-items-en">Watch</div>
+                           <div class="conmon-list-l-items-line"></div>
+                           <img src="../images/item_1 (3).jpg" alt="">
+                       </a>
+                   </div>
+                   <div class="conmon-list-l-items">
+                       <a href="">
+                           <div class="conmon-list-l-items-title">手表</div>
+                           <div class="conmon-list-l-items-en">Watch</div>
+                           <div class="conmon-list-l-items-line"></div>
+                           <img src="../images/item_1 (3).jpg" alt="">
+                       </a>
+                   </div>
+                   <div class="conmon-list-l-items">
+                       <a href="">
+                           <div class="conmon-list-l-items-title">手表</div>
+                           <div class="conmon-list-l-items-en">Watch</div>
+                           <div class="conmon-list-l-items-line"></div>
+                           <img src="../images/item_1 (3).jpg" alt="">
+                       </a>
+                   </div>
+               </div>
+
+               <div class="conmon-list-right-r">
+                   <div class="conmon-list-right-r-title">
+                       热销大牌
+                   </div>
+                   <div class="conmon-list-right-lunbo">
+                       <ol class="conmon-list-right-r-move">
+                           <li class="oli1">●</li>
+                           <li class="oli2">●</li>
+                       </ol>
+                       <ul>
+                            <li>
+                                <div class="conmon-list-hover">Nuotando Diana & Rue Royale Diana混合专场</div>
+                                <a href="">
+                                    <img src="../images/201308021056003413.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">欧冠 UEFA CHAMPIONS LEAGUE男女混合专场</div>
+                                <a href="">
+                                    <img src="../images/2012020610224855623.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">卡帕特卖旗舰店</div>
+                                <a href="">
+                                    <img src="../images/2013012814193557533.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">犸凯奴Makino户外配件专场</div>
+                                <a href="">
+                                    <img src="../images/2013041815080675883.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">361°男女混合专场</div>
+                                <a href="">
+                                    <img src="../images/2013042410194374583.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">匡威converse特卖旗舰店</div>
+                                <a href="">
+                                    <img src="../images/2013050914415045603.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">川崎Kawasaki网羽运动系列专场</div>
+                                <a href="">
+                                    <img src="../images/2013100917354382153.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">韩国AIMUTU时尚户外服装专场</div>
+                                <a href="">
+                                    <img src="../images/2013102411221245723.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">韩国AIMUTU时尚户外服装专场</div>
+                                <a href="">
+                                    <img src="../images/2014021216595072823.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">皮尔瑜伽Pieryoga运动服饰专场</div>
+                                <a href="">
+                                    <img src="../images/2014060409093797533.jpg" alt="">
+                                </a>
+                            </li>
+                       </ul>
+                   </div>
+               </div>
+            </div>
+        </div>
+        <!-- 饰品品牌 列表 -->
+        <!-- 列表 start -->
+        <div class="conmon-items">
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/19555904_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>包邮</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>梅花Titoni手表专场</p>
+                    <p class="brand-time">剩10时</p>
+                </div>
+            </div>
+           <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/19555904_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>包邮</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>梅花Titoni手表专场</p>
+                    <p class="brand-time">剩10时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/19555904_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>包邮</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>梅花Titoni手表专场</p>
+                    <p class="brand-time">剩10时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/19555904_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>包邮</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>梅花Titoni手表专场</p>
+                    <p class="brand-time">剩10时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/19555904_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>包邮</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>梅花Titoni手表专场</p>
+                    <p class="brand-time">剩10时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/19555904_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>包邮</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>梅花Titoni手表专场</p>
+                    <p class="brand-time">剩10时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/19555904_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>包邮</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>梅花Titoni手表专场</p>
+                    <p class="brand-time">剩10时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/19555904_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>包邮</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>梅花Titoni手表专场</p>
+                    <p class="brand-time">剩10时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/19555904_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>包邮</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>梅花Titoni手表专场</p>
+                    <p class="brand-time">剩10时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/19555904_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>包邮</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>梅花Titoni手表专场</p>
+                    <p class="brand-time">剩10时</p>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+        <!-- 列表 end -->
+        <div class="conmon-bottom">
+            <div class="conmon-bottom-item">
+                <a href="">逛更多饰品品牌<i></i></a>
+            </div>
+        </div>
+    </div>
+<!-- 饰品 ending  -->
+<!-- 7777777777777777777777777777777777777777777777777 -->
+<!-- 美妆 start  -->
+    <div class="conmon-cloth">
+        <!-- 美妆 标题 -->
+        <div class="conmon-title">
+            <img src="../images/beauty_wrf.png" alt="">
+            <a href="" class="conmon-title-more">全部美妆品牌<i></i></a>
+        </div>
+        <!-- 美妆 标题下 -->
+        <div class="conmon-list">
+            <div class="conmon-list-left">
+                <img src="../images/left (4).jpg" alt="">
+                <a href="" style="background:#e8467b;"><span>美妆频道</span></a>
+            </div>
+            <div class="conmon-list-right">
+               <div class="conmon-list-right-l">
+                   <div class="conmon-list-l-items">
+                       <a href="">
+                           <div class="conmon-list-l-items-title">套装</div>
+                           <div class="conmon-list-l-items-en">Skin care set</div>
+                           <div class="conmon-list-l-items-line" style="background:#e8467b"></div>
+                           <img src="../images/item_1 (4).jpg" alt="">
+                       </a>
+                   </div>
+                   <div class="conmon-list-l-items">
+                       <a href="">
+                           <div class="conmon-list-l-items-title">套装</div>
+                           <div class="conmon-list-l-items-en">Skin care set</div>
+                           <div class="conmon-list-l-items-line" style="background:#e8467b"></div>
+                           <img src="../images/item_1 (4).jpg" alt="">
+                       </a>
+                   </div>
+                   <div class="conmon-list-l-items">
+                       <a href="">
+                           <div class="conmon-list-l-items-title">套装</div>
+                           <div class="conmon-list-l-items-en">Skin care set</div>
+                           <div class="conmon-list-l-items-line" style="background:#e8467b"></div>
+                           <img src="../images/item_1 (4).jpg" alt="">
+                       </a>
+                   </div>
+                   <div class="conmon-list-l-items">
+                       <a href="">
+                           <div class="conmon-list-l-items-title">套装</div>
+                           <div class="conmon-list-l-items-en">Skin care set</div>
+                           <div class="conmon-list-l-items-line" style="background:#e8467b"></div>
+                           <img src="../images/item_1 (4).jpg" alt="">
+                       </a>
+                   </div>
+               </div>
+
+               <div class="conmon-list-right-r">
+                   <div class="conmon-list-right-r-title">
+                       热销大牌
+                   </div>
+                   <div class="conmon-list-right-lunbo">
+                       <ol class="conmon-list-right-r-move">
+                           <li class="oli1">●</li>
+                           <li class="oli2">●</li>
+                       </ol>
+                       <ul>
+                            <li>
+                                <div class="conmon-list-hover">Nuotando Diana & Rue Royale Diana混合专场</div>
+                                <a href="">
+                                    <img src="../images/201308021056003413.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">欧冠 UEFA CHAMPIONS LEAGUE男女混合专场</div>
+                                <a href="">
+                                    <img src="../images/2012020610224855623.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">卡帕特卖旗舰店</div>
+                                <a href="">
+                                    <img src="../images/2013012814193557533.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">犸凯奴Makino户外配件专场</div>
+                                <a href="">
+                                    <img src="../images/2013041815080675883.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">361°男女混合专场</div>
+                                <a href="">
+                                    <img src="../images/2013042410194374583.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">匡威converse特卖旗舰店</div>
+                                <a href="">
+                                    <img src="../images/2013050914415045603.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">川崎Kawasaki网羽运动系列专场</div>
+                                <a href="">
+                                    <img src="../images/2013100917354382153.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">韩国AIMUTU时尚户外服装专场</div>
+                                <a href="">
+                                    <img src="../images/2013102411221245723.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">韩国AIMUTU时尚户外服装专场</div>
+                                <a href="">
+                                    <img src="../images/2014021216595072823.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <div class="conmon-list-hover">皮尔瑜伽Pieryoga运动服饰专场</div>
+                                <a href="">
+                                    <img src="../images/2014060409093797533.jpg" alt="">
+                                </a>
+                            </li>
+                       </ul>
+                   </div>
+               </div>
+            </div>
+        </div>
+        <!-- 饰品品牌 列表 -->
+        <!-- 列表 start -->
+        <div class="conmon-items">
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/35059867_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满350减50，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>SK-II化妆品专场</p>
+                    <p class="brand-time">剩2天</p>
+                </div>
+            </div>
+          <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/35059867_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满350减50，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>SK-II化妆品专场</p>
+                    <p class="brand-time">剩2天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/35059867_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满350减50，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>SK-II化妆品专场</p>
+                    <p class="brand-time">剩2天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/35059867_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满350减50，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>SK-II化妆品专场</p>
+                    <p class="brand-time">剩2天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/35059867_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满350减50，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>SK-II化妆品专场</p>
+                    <p class="brand-time">剩2天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/35059867_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满350减50，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>SK-II化妆品专场</p>
+                    <p class="brand-time">剩2天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/35059867_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满350减50，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>SK-II化妆品专场</p>
+                    <p class="brand-time">剩2天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/35059867_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满350减50，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>SK-II化妆品专场</p>
+                    <p class="brand-time">剩2天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/35059867_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满350减50，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>SK-II化妆品专场</p>
+                    <p class="brand-time">剩2天</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/35059867_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满350减50，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>SK-II化妆品专场</p>
+                    <p class="brand-time">剩2天</p>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+        <!-- 列表 end -->
+        <div class="conmon-bottom">
+            <div class="conmon-bottom-item">
+                <a href="">逛更多美妆品牌<i></i></a>
+            </div>
+        </div>
+    </div>
+<!-- 美妆 ending  -->
+<!-- 8888888888888888888888888888888888888888888888888 -->
+<!-- 母婴 start  -->
+    <div class="conmon-cloth">
+        <!-- 女装 标题 -->
+        <div class="conmon-title">
+            <img src="../images/kid_zZb.png" alt="">
+            <a href="" class="conmon-title-more">全部母婴品牌<i></i></a>
+        </div>
+        <!-- 母婴 标题下 -->
+        <div class="conmon-list">
+            <div class="conmon-list-left">
+                <img src="../images/left (5).jpg" alt="">
+                <a href="" style="background:#fd628d"><span>母婴频道</span></a>
+            </div>
+            <div class="conmon-list-right">
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                 <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                 <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                 <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                 <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                 <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- 女装品牌 列表 -->
+        <!-- 列表 start -->
+        <div class="conmon-items">
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+        <!-- 列表 end -->
+        <div class="conmon-bottom">
+            <div class="conmon-bottom-item">
+                <a href="">逛更多母婴品牌<i></i></a>
+            </div>
+        </div>
+    </div>
+<!-- 居家 ending  -->
+<!-- 9999999999999999999999999999999999999999999999999 -->
+<!-- 居家 start  -->
+    <div class="conmon-cloth">
+        <!-- 女装 标题 -->
+        <div class="conmon-title">
+            <img src="../images/home_zhs.png" alt="">
+            <a href="" class="conmon-title-more">全部母婴品牌<i></i></a>
+        </div>
+        <!-- 母婴 标题下 -->
+        <div class="conmon-list">
+            <div class="conmon-list-left">
+                <img src="../images/left (5).jpg" alt="">
+                <a href="" style="background:#fd628d"><span>母婴频道</span></a>
+            </div>
+            <div class="conmon-list-right">
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                 <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                 <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                 <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                 <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                 <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- 女装品牌 列表 -->
+        <!-- 列表 start -->
+        <div class="conmon-items">
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+        <!-- 列表 end -->
+        <div class="conmon-bottom">
+            <div class="conmon-bottom-item">
+                <a href="">逛更多母婴品牌<i></i></a>
+            </div>
+        </div>
+    </div>
+<!-- 居家 ending  -->
+<!-- 1010101010101010101010101010101010101010101010100 -->
+<!-- 唯品国际 start  -->
+    <div class="conmon-cloth">
+        <!-- 唯品国际 标题 -->
+        <div class="conmon-title">
+            <img src="../images/vipglobal_hbS_odfu.png" alt="">
+            <a href="" class="conmon-title-more">全部母婴品牌<i></i></a>
+        </div>
+        <!-- 唯品国际 标题下 -->
+        <div class="conmon-list">
+            <div class="conmon-list-left">
+                <img src="../images/left (5).jpg" alt="">
+                <a href="" style="background:#fd628d"><span>母婴频道</span></a>
+            </div>
+            <div class="conmon-list-right">
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                 <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                 <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                 <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                 <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                 <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- 女装品牌 列表 -->
+        <!-- 列表 start -->
+        <div class="conmon-items">
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+        <!-- 列表 end -->
+        <div class="conmon-bottom">
+            <div class="conmon-bottom-item">
+                <a href="">逛更多母婴品牌<i></i></a>
+            </div>
+        </div>
+    </div>
+<!-- 唯品国际 ending  -->
+<!-- 11 11 11 11 11 11 11 11 11 11 11 11 11 11 1 11 11  -->
+<!-- 生活 start  -->
+    <div class="conmon-cloth">
+        <!-- 生活 标题 -->
+        <div class="conmon-title">
+            <img src="../images/life-titel.png" alt="">
+            <a href="" class="conmon-title-more">全部母婴品牌<i></i></a>
+        </div>
+        <!-- 生活 标题下 -->
+        <div class="conmon-list">
+            <div class="conmon-list-left">
+                <img src="../images/left (5).jpg" alt="">
+                <a href="" style="background:#fd628d"><span>母婴频道</span></a>
+            </div>
+            <div class="conmon-list-right">
+                <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                 <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                 <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                 <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                 <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+                 <div class="conmon-list-right-list">
+                    <a href=""><div style="color:#333">婴幼服装</div>
+                    <div style="color:#999;font-size:12px;margin-bottom:10px;">Baby clothing</div>
+                    <div style="width:24px;height:3px;margin:0 auto;margin-bottom:10px;background:#fd628d"></div>
+                    <img src="../images/item_1.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- 女装品牌 列表 -->
+        <!-- 列表 start -->
+        <div class="conmon-items">
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+            <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+             <div class="brand-item">
+                <div class="brand-item-img">
+                    <a href="">
+                        <img src="../images/03355217_570x273_90.jpg" alt="">
+                    </a>
+                    <div class="brand-item-opa">
+                        <i></i>
+                        <span>满298减80，上不封顶</span>
+                        <a href="" class="brand-item-opa-enshore">收藏品牌</a>
+                    </div>
+                </div>
+                <div class="brand-bottom">
+                    <p>马骑顿MQD男童装专场</p>
+                    <p class="brand-time">剩14时</p>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+        <!-- 列表 end -->
+        <div class="conmon-bottom">
+            <div class="conmon-bottom-item">
+                <a href="">逛更多母婴品牌<i></i></a>
+            </div>
+        </div>
+    </div>
+<!-- 生活 ending  -->
+<!-- 预告 预告 预告  预告 预告 预告 预告 预告 预告 预告-->
+<!-- 预告 start  -->
+    <div class="yugao">
+         <!-- 预告 标题 -->
+        <div class="yugao-conmon-title">
+            <img src="../images/tomorrow.png" alt="">
+        </div>
+        <div class="yugao-container">
+            <div class="yugao-item">
+                <div class="yugao-item-img">
+                    <a href="">
+                        <img src="../images/38584964_320x153_90.jpg" alt="">
+                    </a>
+                    <div class="product-choose-btn">
+                        <a href="">抢先抢好货&gt;</a>
+                    </div>
+                    <div class="product-info">
+                        满498减100，上不封顶
+                        <div class="yugao-shoucang">
+                            <a href="">收藏品牌</a></div>
+                    </div>
+                </div>
+                <div class="brand-info">
+                    <a href="">30年经典品质-水星家纺</a>
+                    <div class="yugao-brand-input">
+                        <input type="text" placeholder="请输入邮箱或者手机号">
+                        <a href=""><span>|</span>提醒我</a>
+                    </div>
+                </div>
+            </div>
+            <div class="yugao-item">
+                <div class="yugao-item-img">
+                    <a href="">
+                        <img src="../images/38584964_320x153_90.jpg" alt="">
+                    </a>
+                    <div class="product-choose-btn">
+                        <a href="">抢先抢好货&gt;</a>
+                    </div>
+                    <div class="product-info">
+                        满498减100，上不封顶
+                        <div class="yugao-shoucang">
+                            <a href="">收藏品牌</a></div>
+                    </div>
+                </div>
+                <div class="brand-info">
+                    <a href="">30年经典品质-水星家纺</a>
+                    <div class="yugao-brand-input">
+                        <input type="text" placeholder="请输入邮箱或者手机号">
+                        <a href=""><span>|</span>提醒我</a>
+                    </div>
+                </div>
+            </div>
+            <div class="yugao-item">
+                <div class="yugao-item-img">
+                    <a href="">
+                        <img src="../images/38584964_320x153_90.jpg" alt="">
+                    </a>
+                    <div class="product-choose-btn">
+                        <a href="">抢先抢好货&gt;</a>
+                    </div>
+                    <div class="product-info">
+                        满498减100，上不封顶
+                        <div class="yugao-shoucang">
+                            <a href="">收藏品牌</a></div>
+                    </div>
+                </div>
+                <div class="brand-info">
+                    <a href="">30年经典品质-水星家纺</a>
+                    <div class="yugao-brand-input">
+                        <input type="text" placeholder="请输入邮箱或者手机号">
+                        <a href=""><span>|</span>提醒我</a>
+                    </div>
+                </div>
+            </div>
+            <div class="yugao-item">
+                <div class="yugao-item-img">
+                    <a href="">
+                        <img src="../images/38584964_320x153_90.jpg" alt="">
+                    </a>
+                    <div class="product-choose-btn">
+                        <a href="">抢先抢好货&gt;</a>
+                    </div>
+                    <div class="product-info">
+                        满498减100，上不封顶
+                        <div class="yugao-shoucang">
+                            <a href="">收藏品牌</a></div>
+                    </div>
+                </div>
+                <div class="brand-info">
+                    <a href="">30年经典品质-水星家纺</a>
+                    <div class="yugao-brand-input">
+                        <input type="text" placeholder="请输入邮箱或者手机号">
+                        <a href=""><span>|</span>提醒我</a>
+                    </div>
+                </div>
+            </div>
+            <div class="yugao-item">
+                <div class="yugao-item-img">
+                    <a href="">
+                        <img src="../images/38584964_320x153_90.jpg" alt="">
+                    </a>
+                    <div class="product-choose-btn">
+                        <a href="">抢先抢好货&gt;</a>
+                    </div>
+                    <div class="product-info">
+                        满498减100，上不封顶
+                        <div class="yugao-shoucang">
+                            <a href="">收藏品牌</a></div>
+                    </div>
+                </div>
+                <div class="brand-info">
+                    <a href="">30年经典品质-水星家纺</a>
+                    <div class="yugao-brand-input">
+                        <input type="text" placeholder="请输入邮箱或者手机号">
+                        <a href=""><span>|</span>提醒我</a>
+                    </div>
+                </div>
+            </div>
+            <div class="yugao-item">
+                <div class="yugao-item-img">
+                    <a href="">
+                        <img src="../images/38584964_320x153_90.jpg" alt="">
+                    </a>
+                    <div class="product-choose-btn">
+                        <a href="">抢先抢好货&gt;</a>
+                    </div>
+                    <div class="product-info">
+                        满498减100，上不封顶
+                        <div class="yugao-shoucang">
+                            <a href="">收藏品牌</a></div>
+                    </div>
+                </div>
+                <div class="brand-info">
+                    <a href="">30年经典品质-水星家纺</a>
+                    <div class="yugao-brand-input">
+                        <input type="text" placeholder="请输入邮箱或者手机号">
+                        <a href=""><span>|</span>提醒我</a>
+                    </div>
+                </div>
+            </div>
+            <div class="yugao-item">
+                <div class="yugao-item-img">
+                    <a href="">
+                        <img src="../images/38584964_320x153_90.jpg" alt="">
+                    </a>
+                    <div class="product-choose-btn">
+                        <a href="">抢先抢好货&gt;</a>
+                    </div>
+                    <div class="product-info">
+                        满498减100，上不封顶
+                        <div class="yugao-shoucang">
+                            <a href="">收藏品牌</a></div>
+                    </div>
+                </div>
+                <div class="brand-info">
+                    <a href="">30年经典品质-水星家纺</a>
+                    <div class="yugao-brand-input">
+                        <input type="text" placeholder="请输入邮箱或者手机号">
+                        <a href=""><span>|</span>提醒我</a>
+                    </div>
+                </div>
+            </div>
+            <div class="yugao-item">
+                <div class="yugao-item-img">
+                    <a href="">
+                        <img src="../images/38584964_320x153_90.jpg" alt="">
+                    </a>
+                    <div class="product-choose-btn">
+                        <a href="">抢先抢好货&gt;</a>
+                    </div>
+                    <div class="product-info">
+                        满498减100，上不封顶
+                        <div class="yugao-shoucang">
+                            <a href="">收藏品牌</a></div>
+                    </div>
+                </div>
+                <div class="brand-info">
+                    <a href="">30年经典品质-水星家纺</a>
+                    <div class="yugao-brand-input">
+                        <input type="text" placeholder="请输入邮箱或者手机号">
+                        <a href=""><span>|</span>提醒我</a>
+                    </div>
+                </div>
+            </div><div class="yugao-item">
+                <div class="yugao-item-img">
+                    <a href="">
+                        <img src="../images/38584964_320x153_90.jpg" alt="">
+                    </a>
+                    <div class="product-choose-btn">
+                        <a href="">抢先抢好货&gt;</a>
+                    </div>
+                    <div class="product-info">
+                        满498减100，上不封顶
+                        <div class="yugao-shoucang">
+                            <a href="">收藏品牌</a></div>
+                    </div>
+                </div>
+                <div class="brand-info">
+                    <a href="">30年经典品质-水星家纺</a>
+                    <div class="yugao-brand-input">
+                        <input type="text" placeholder="请输入邮箱或者手机号">
+                        <a href=""><span>|</span>提醒我</a>
+                    </div>
+                </div>
+            </div>
+            <div class="yugao-item">
+                <div class="yugao-item-img">
+                    <a href="">
+                        <img src="../images/38584964_320x153_90.jpg" alt="">
+                    </a>
+                    <div class="product-choose-btn">
+                        <a href="">抢先抢好货&gt;</a>
+                    </div>
+                    <div class="product-info">
+                        满498减100，上不封顶
+                        <div class="yugao-shoucang">
+                            <a href="">收藏品牌</a></div>
+                    </div>
+                </div>
+                <div class="brand-info">
+                    <a href="">30年经典品质-水星家纺</a>
+                    <div class="yugao-brand-input">
+                        <input type="text" placeholder="请输入邮箱或者手机号">
+                        <a href=""><span>|</span>提醒我</a>
+                    </div>
+                </div>
+            </div>
+            <div class="yugao-item">
+                <div class="yugao-item-img">
+                    <a href="">
+                        <img src="../images/38584964_320x153_90.jpg" alt="">
+                    </a>
+                    <div class="product-choose-btn">
+                        <a href="">抢先抢好货&gt;</a>
+                    </div>
+                    <div class="product-info">
+                        满498减100，上不封顶
+                        <div class="yugao-shoucang">
+                            <a href="">收藏品牌</a></div>
+                    </div>
+                </div>
+                <div class="brand-info">
+                    <a href="">30年经典品质-水星家纺</a>
+                    <div class="yugao-brand-input">
+                        <input type="text" placeholder="请输入邮箱或者手机号">
+                        <a href=""><span>|</span>提醒我</a>
+                    </div>
+                </div>
+            </div>
+            <div class="yugao-item">
+                <div class="yugao-item-img">
+                    <a href="">
+                        <img src="../images/38584964_320x153_90.jpg" alt="">
+                    </a>
+                    <div class="product-choose-btn">
+                        <a href="">抢先抢好货&gt;</a>
+                    </div>
+                    <div class="product-info">
+                        满498减100，上不封顶
+                        <div class="yugao-shoucang">
+                            <a href="">收藏品牌</a></div>
+                    </div>
+                </div>
+                <div class="brand-info">
+                    <a href="">30年经典品质-水星家纺</a>
+                    <div class="yugao-brand-input">
+                        <input type="text" placeholder="请输入邮箱或者手机号">
+                        <a href=""><span>|</span>提醒我</a>
+                    </div>
+                </div>
+            </div>
+            <div class="yugao-item">
+                <div class="yugao-item-img">
+                    <a href="">
+                        <img src="../images/38584964_320x153_90.jpg" alt="">
+                    </a>
+                    <div class="product-choose-btn">
+                        <a href="">抢先抢好货&gt;</a>
+                    </div>
+                    <div class="product-info">
+                        满498减100，上不封顶
+                        <div class="yugao-shoucang">
+                            <a href="">收藏品牌</a></div>
+                    </div>
+                </div>
+                <div class="brand-info">
+                    <a href="">30年经典品质-水星家纺</a>
+                    <div class="yugao-brand-input">
+                        <input type="text" placeholder="请输入邮箱或者手机号">
+                        <a href=""><span>|</span>提醒我</a>
+                    </div>
+                </div>
+            </div>
+            <div class="yugao-item">
+                <div class="yugao-item-img">
+                    <a href="">
+                        <img src="../images/38584964_320x153_90.jpg" alt="">
+                    </a>
+                    <div class="product-choose-btn">
+                        <a href="">抢先抢好货&gt;</a>
+                    </div>
+                    <div class="product-info">
+                        满498减100，上不封顶
+                        <div class="yugao-shoucang">
+                            <a href="">收藏品牌</a></div>
+                    </div>
+                </div>
+                <div class="brand-info">
+                    <a href="">30年经典品质-水星家纺</a>
+                    <div class="yugao-brand-input">
+                        <input type="text" placeholder="请输入邮箱或者手机号">
+                        <a href=""><span>|</span>提醒我</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+        <div class="yugao-more">
+            <div class="yugao-more-inner">
+                <a href="">查看更多预告</a>
+            </div>
+        </div>    
+    </div>
+<!-- 预告 ending  -->
+</div>
+<!-- 底部 start -->
+<footer>
+    <footer class="footer-inner">
+        <div class="footer-top"></div>
+        <ul id="ul-list">
+            <li>
+                <p>服务保障</p>
+                <ul>
+                    <li><a href="">正品保证</a></li>
+                    <li><a href="">7天无理由放心退</a></li>
+                    <li><a href="">退货返运费</a></li>
+                    <li><a href="">7×15小时客户服务</a></li>
+                </ul>
+            </li>
+           <li>
+                <p>购物指南</p>
+                <ul>
+                    <li><a href="">导购演示</a></li>
+                    <li><a href="">订单操作</a></li>
+                    <li><a href="">会员注册</a></li>
+                    <li><a href="">账户管理</a></li>
+                    <li><a href="">收获样品</a></li>
+                    <li><a href="">会员等级</a></li>
+                </ul>
+            </li>
+            <li>
+                <p>支付方式</p>
+                <ul>
+                    <li><a href="">快捷支付</a></li>
+                    <li><a href="">23家主流网银支付</a></li>
+                    <li><a href="">货到付款</a></li>
+                    <li><a href="">支付宝，银联等支付</a></li>
+                    <li><a href="">信用卡支付</a></li>
+                    <li><a href="">唯品钱包支付</a></li>
+                </ul>
+            </li>
+            <li>
+                <p>配送方式</p>
+                <ul>
+                    <li><a href="">全场满288元免运费</a></li>
+                    <li><a href="">配送范围以及运费</a></li>
+                    <li><a href="">验货与签收</a></li>
+                </ul>
+            </li>
+            <li>
+                <p>售后服务</p>
+                <ul>
+                    <li><a href="">退货政策</a></li>
+                    <li><a href="">退货流程</a></li>
+                    <li><a href="">退款方式和时效</a></li>
+                </ul>
+            </li>
+            <li id="ul-list-last">
+                <div>会员APP二维码</div>
+                <div style="padding:5px 0px;border:0"><img src="../images/page_bottom_dl_n.png" alt=""></div>
+                <div>下载移动APP</div>
+            </li>
+        </ul>
+        <p id="footer-info-link">
+            <a href="">关于我们</a>
+            <a href="">|&ensp;About us</a>
+            <a href="">|&ensp;Investor Relations</a>
+            <a href="">|&ensp;媒体报道</a>
+            <a href="">|&ensp;品牌招商</a>
+            <a href="">|&ensp;唯品诚聘</a>
+            <a href="">|&ensp;365爱心基金</a>
+            <a href="">|&ensp;唯品卡</a>
+            <a href="">|&ensp;唯品地图</a>
+            <a href="">|&ensp;品牌大全</a>
+            <a href="">|&ensp;联系我们</a>
+        </p>
+        <div id="footer-dibu">
+            <p style="padding-top:20px;">
+            Copyright © 2008-2016 vip.com，All Rights Reserved <a href="">粤ICP备08114786号</a><a href="">&nbsp;ICP经营许可证：粤B2-20080329 </a><a href="">网络文化经营许可证：粤网文〔2015〕1528-229</a>
+            </p>
+            <p><a id="police" href=""><i></i>粤公网安备 44010302111111号</a>  使用本网站即表示接受<a href="">唯品会用户协议</a>。版权所有 <a href="">&nbsp;广州唯品会信息科技有限公司</a></p>
+        </div>
+        <div id="footer-img">
+            <a href="" class="footer-img1"></a>
+            <a href="" class="footer-img2"></a>
+            <a href="" class="footer-img3"></a>
+            <a href="" class="footer-img4"></a>
+            <a href="" class="footer-img5"></a>
+            <a href="" class="footer-img6"></a>
+            <a href="" class="footer-img7"></a>
+        </div>
+    </footer>
+</footer>
+<!-- 底部 ending -->
+<!-- 右边的侧栏 start -->
+<div class="right-side">
+    <div class="right-side-inner">
+        <ul class="right-side-ul1">
+            <li class="li1">
+                <div class="li1-pop">
+                    <p><img src="../images/my_cnt_pic.jpg" alt="">
+                        <span>请<a href="">[登录]</a></span>
+                    </p>
+                    <ul>
+                        <li style="border-right:1px solid #ccc;">我的订单</li>
+                        <li>我的消息</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="li2 lis">
+                <div class="li-pop">我的优惠劵</div>
+            </li>
+            <li class="li3 lis">
+                <div class="li-pop">我收藏的品牌</div>
+            </li>
+            <li class="li4 lis">
+                <div class="li-pop">我收藏的商品</div>
+            </li>
+        </ul>
+        <div class="right-side-shop">
+            <a href="shop-car.html" style="display:block">
+            <div class="right-side-shop1"></div>
+            <div class="right-side-shop2">购物袋</div>
+            <div class="right-side-shop3">1</div>
+            </a>
+        </div>
+        <ul class="right-side-ul2">
+            <li class="li5 lis2">
+                <div class="li-pop1">会员反馈</div>
+            </li>
+            <li class="li6 lis2">
+                <div class="li-pop1 back-top">回到顶部</div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- 右边的侧栏 ending -->
+</body>
+</html>
+
+
+
+
+

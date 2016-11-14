@@ -1,0 +1,16 @@
+[{"english":"A","area":["安徽","澳门"]},
+    {"english":"B","area":["北京"]},
+    {"english":"C","area":["重庆"]},
+    {"english":"F","area":["福建"]},
+    {"english":"G","area":["广西","广东","贵州","甘肃"]},
+    {"english":"H","area":["河北","河南","黑龙江","海南","湖北","湖南"]},
+    {"english":"J","area":["江苏","吉林","江西"]},
+    {"english":"L","area":["辽宁"]},
+    {"english":"N","area":["内蒙古","宁夏"]},
+    {"english":"Q","area":["青海"]},
+    {"english":"S","area":["上海","山东","山西","四川","山西"]},
+    {"english":"T","area":["台湾","天津"]},
+    {"english":"X","area":["西藏","香港","新疆"]},
+    {"english":"Y","area":["云南"]},
+    {"english":"Z","area":["浙江"]}
+]

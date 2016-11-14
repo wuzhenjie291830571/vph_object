@@ -1,0 +1,175 @@
+.regsForm{
+	width:274px;
+	font-size: 12px;
+	float: right;
+	margin-top:40px;
+	margin-right:80px;
+}
+.form-top{
+	width:274px;
+	height:40px;
+}
+.form-top>span{
+	display: block;
+}
+.form-top-left{
+	width:65px;
+	height:16px;
+	float: left;
+	font-size: 14px;
+}
+.form-top-right{
+	width:100px;
+	height:16px;
+	float: right;
+}
+.form-top-right>a{
+	color:#f10180;
+}
+.form-top-right>a:hover{
+	text-decoration: underline;
+}
+/* 表单顶部结束 */
+/* 手机注册 start */
+#phone-form{
+	width:270px;
+}
+.conmen{
+	width:270px;
+	height:65px;
+}
+.conmen>input{
+	width:248px;
+	outline: none;
+	border-radius: 3px;
+	border:1px solid #ccc;
+	line-height: 18px;
+    padding: 6px 10px;
+}
+.conmen>p{
+	width:248px;
+	padding: 6px 10px;
+	font-size: 12px;
+	border:1px solid #ccc;
+	display: none;
+}
+
+.phone-mail>input{
+	width:110px;
+	outline: none;
+	border-radius: 3px;
+	border:1px solid #ccc;
+	line-height: 18px;
+    padding: 6px 10px;
+    display: block;
+    float: left;
+}
+.phone-mail #phone-btn{
+	width:110px;
+	outline: none;
+	border-radius: 3px;
+	border:1px solid #ccc;
+	line-height: 18px;
+    padding: 6px 10px;
+    display: block;
+    float: right;
+    text-align: center;
+    color:#999;
+}
+.phone-mail #email-btn{
+	width:110px;
+	outline: none;
+	border-radius: 3px;
+	border:1px solid #ccc;
+	line-height: 18px;
+    padding: 6px 10px;
+    display: block;
+    float: right;
+    text-align: center;
+    color:#999;
+}
+.phone-mail>button>span{
+	color:#999;
+}
+.level{
+	margin-top:10px;
+	display: inline-block;
+	margin-right:5px;
+	width:20px;
+	height:10px;
+	background:#ccc;
+}
+.level-w{
+	display: inline-block;
+	width:100px;
+	height: 20px;
+	font-style: normal;
+	font-size: 14px;
+}
+/* 手机注册结束 */
+/* 邮箱注册 */
+.level1{
+	margin-top:10px;
+	display: inline-block;
+	margin-right:5px;
+	width:20px;
+	height:10px;
+	background:#ccc;
+}
+.level-w1{
+	display: inline-block;
+	width:100px;
+	height: 20px;
+	font-style: normal;
+	font-size: 14px;
+}
+#email-form{
+	width:270px;
+	height:32px;
+	display: none;
+}
+/* 立即注册 start*/
+.cur-reg{
+	width:270px;
+	height:50px;
+	margin-top:30px;
+}
+.cur-regist{
+	width:133px;
+	outline: none;
+	border-radius: 3px;
+	border:1px solid #f10180;
+	line-height: 18px;
+    padding: 10px 10px;
+    display: block;
+    float: left;
+    background:#f10180;
+	color:#fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+.cur-reg-right{
+	float:right;
+	padding-top:25px;
+}
+.cur-reg-right>a{
+	color:#1d94d1;
+	font-size: 12px;
+}
+.items{
+	width:270px;
+	padding-top:40px;
+}
+#item-check{
+	width:22px;
+	height:18px;
+	outline: none;
+}
+.items>span{
+	display: block;
+	float: left;
+}
+.items a{
+	color:#f10180;
+}
+

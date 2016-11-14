@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>register</title>
+	<link rel="stylesheet" href="../css/login-register.css">
+	<link rel="stylesheet" href="../css/register.css">
+	<script src="../js/jquery.js"></script>
+	<script src="../js/boot.js"></script>
+	<script src="../js/register.js"></script>
+</head>
+<body>
+	<div class="login-inner">
+		<header>
+			<div class="header-left"><a href="index.html"></a></div>
+			<div class="header-right"></div>
+		</header>
+		<div class="contain">
+			<div class="regsForm">
+				<!-- 表头 -->
+				<div class="form-top">
+					<span class="form-top-left">欢迎注册
+					</span>
+					<span class="form-top-right">已注册可<a href="login.html">直接登录</a>
+					</span>
+				</div>
+
+				<div class="reg-form-wrapper">
+<!-- *******手机表单注册********  -->
+					<form id= "phone-form" action="">
+						<!-- 手机号 -->
+						<div class="conmen">
+							<input type="text" id="phone-user" placeholder="请输入11位的手机号码">
+							<p id="phone-user-tip"></p>
+						</div>
+						<!-- 密码1 -->
+						<div class="conmen">
+							<input type="password" id="phone-pwd1" placeholder="密码由6-20位字母，数字和符号组合">
+							<span class="level"></span>
+							<span class="level"></span>
+							<span class="level"></span>
+							<i class="level-w"></i>
+						</div>
+						<!-- 密码2 -->
+						<div class="conmen">
+							<input type="password" id="phone-pwd2" placeholder="请再次输入上面的密码">
+							<p id="phone-pwd2-tip"></p>
+						</div>
+						<!-- 短信验证 -->
+						<div class="phone-mail">
+							<input type="text" id="mail-flag"placeholder="短信验证码">
+							<input type="button" id="phone-btn" disabled="true" value="获取验证码"/>
+							
+						</div>
+						<!-- 立即注册-->
+						<div style="clear:both"></div>
+						<div class="cur-reg">
+							<input type="button" value="立即注册" class="cur-regist" id="phone-curReg">
+							<div class="cur-reg-right"><a href="" id="email-reg">通过邮箱注册&gt;&gt;</a></div>
+						</div>
+					</form>
+<!-- ***********邮箱表单注册************ -->
+					<form id= "email-form" action="">
+						<!-- 邮箱号 -->
+						<div class="conmen">
+							<input type="text" id="email-user" placeholder="请输入邮箱帐号">
+							<p id="email-user-tip"></p>
+						</div>
+						<!-- 邮箱密码1 -->
+						<div class="conmen">
+							<input type="password" id="email-pwd1" placeholder="密码由6-20位字母，数字和符号组合">
+							<span class="level1"></span>
+							<span class="level1"></span>
+							<span class="level1"></span>
+							<i class="level-w1"></i>
+						</div>
+						<!-- 邮箱密码2 -->
+						<div class="conmen">
+							<input type="password" id="email-pwd2" placeholder="请再次输入上面的密码">
+							<p id="email-pwd2-tip"></p>
+						</div>
+						<!-- 邮箱手机号 -->
+						<div class="conmen">
+							<input type="text" id="email-phone" placeholder="请输入手机号">
+							<p id="email-phone-tip"></p>
+						</div>
+						<!-- 邮箱短信验证 -->
+						<div class="phone-mail">
+							<input id="email-flag" type="text" placeholder="短信验证码">
+							<input id="email-btn" disabled="true" value="获取验证码"/>
+						</div>
+						<!-- 邮箱立即注册-->
+						<div style="clear:both"></div>
+						<div class="cur-reg">
+							<input type="button" value="立即注册" class="cur-regist" id="email-curReg">
+							<div class="cur-reg-right"><a href="" id="phone-reg">通过手机注册&gt;&gt;</a></div>
+						</div>
+					</form>
+
+					<!-- 服务条款 -->
+					<div style="clear:both"></div>
+					<div class="items">
+						<span>
+							<input type="checkbox" id="item-check" >
+						</span>
+						<span>我已阅读并接受<a href="">唯品会服务条款</a><span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<footer>
+			<p>Copyright 2008-2016 vip.com，All Rights Reserved ICP证：粤 B2-20080329</p>
+		</footer>
+	</div>
+</body>
+</html>

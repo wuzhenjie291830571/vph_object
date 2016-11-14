@@ -1,0 +1,176 @@
+.contain-login{
+    float: right;
+    width: 274px;
+    height:408px;
+    padding-top: 40px;
+    padding-right: 100px;
+}
+.user{
+	width:66px;
+	height:16px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	line-height: 16px;
+}
+.login-top{
+	width:100%;
+	height:16px;
+	font-size: 14px;
+	line-height: 16px;
+	margin-bottom:15px;
+}
+.input-w{
+	width:250px;
+	outline: none;
+	border:1px solid #ccc;
+	border-radius: 5px;
+    padding: 8px 10px;
+}
+.input>p{
+	width:174px;
+	height:30px;
+	font-size:14px;
+	line-height: 30px; 
+
+}
+.login-btn{
+	width:274px;
+	height:40px;
+}
+#btn{
+	width:140px;
+	height:40px;
+	background: #f10180 ;
+	border-radius: 3px;
+	border: 1px solid #f10180;
+	color:white;
+	font-size: 16px;
+	line-height: 40px;
+	outline:none;
+	cursor: pointer; 
+}
+#btn:hover{
+	background: #f43499;
+	border: 1px solid #f43499;
+}
+.login-bottom{
+	width:274px;
+	height:20px;
+	margin-top:15px;
+	font-size: 12px;
+}
+.remb{
+	width:85px;
+	height:20px;
+	float:left;
+}
+#check{
+	display: block;
+	float: left;
+	width:18px;
+	height:18px;
+	outline: none;
+}
+.remb>span{
+	display: block;
+	float: right;
+}
+.forget{
+	float:right;
+}
+.forget-pwd>a:hover{
+	color:#f43499;
+}
+.free-register a{
+	color:#f43499;
+}
+.cooperate-login{
+	width:274px;
+	height:130px;
+	margin-top:40px;
+	font-size: 14px;
+}
+.cooperate-login>p{
+	color:#999;
+	width:274px;
+	height:25px;
+}
+.cooperate-login>p a{
+	width:24px;
+	height:24px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+	background:red;
+}
+#sina{
+	background:url("../images/sprite1.png") no-repeat -291px -57px;
+}
+#sina:hover{
+	background:url("../images/sprite1.png") no-repeat -263px -57px;
+}
+#qq{
+	background:url("../images/sprite1.png") no-repeat -235px -57px;
+}
+#qq:hover{
+	background:url("../images/sprite1.png") no-repeat -347px -57px;
+}
+#zhifu{
+	background:url("../images/sprite1.png") no-repeat -179px -57px;
+}
+#zhifu:hover{
+	background:url("../images/sprite1.png") no-repeat -151px -57px;
+}
+#vxin{
+	background:url("../images/sprite1.png") no-repeat -207px -57px;
+}
+#vxin:hover{
+	background:url("../images/sprite1.png") no-repeat -319px -57px;
+}
+.cooperate-login span{
+	cursor: pointer;
+	font-size: 12px;	
+}
+.cooperate-login span:hover{
+	color:#f10180;
+}
+.cooperate-login span:hover .ico-triangle{
+	border-color: #f10180 transparent transparent transparent;	
+}
+.ico-triangle {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-width: 5px;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    vertical-align: middle;
+    border-width: 5px;
+    border-color: #999 transparent transparent transparent;
+    border-style: solid dashed dotted dashed;
+}
+#more-ul{
+	width:274px;
+	height:50px;
+	margin-top:20px;
+	display: none;
+}
+.cooperate-login ul li{
+	float: left;
+	width:66px;
+	height:15px;
+	text-align: center;
+	margin-bottom: 10px;
+	border-right:1px solid #999;
+	font-size: 12px;
+	line-height: 15px;
+}
+.cooperate-login ul li>a:hover{
+	color:#f10180;
+}
+/* 中间内容结束 */
+
+
+
+

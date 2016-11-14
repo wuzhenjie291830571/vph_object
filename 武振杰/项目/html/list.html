@@ -1,0 +1,1157 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>详情页</title>
+	<link rel="stylesheet" href="../css/boot.css"/>
+	<link rel="stylesheet" href="../css/right_lan.css"/>
+	<link rel="stylesheet" href="../css/list.css"/>
+    <script src="../js/cookie.js"></script>
+	<script src="../js/jquery.js"></script>
+	<script src="../js/boot.js"></script>
+    <script src="../js/list.js"></script>
+	<script src="../js/right_lan.js"></script>
+    <script src="../js/Endtime.js"></script>
+    <script src="../js/jquery.page.js"></script>
+</head>
+<body>
+<!--header start-->
+<header>
+    <!--页眉 start-->
+    <nav>
+        <div id="nav-inner">
+            <div class="nav-inner-left">
+                <a href="#" id="bj" >北京</a>
+                <i class="ico-triangle"></i>
+                <!-- 地址框 -->
+                <div id="area">
+                    <div id="area-inner">
+                        <p>请选择所在的收货地区</p>
+                        <ul id="area-ul"></ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-inner-right">
+                <ul id="nav-top">
+                    <li id="nav-login">
+                        <a href="#" 
+                        ><b id="re-login">请登录</b><i class="ico-triangle"></i></a>
+                        <span></span>
+                        <!--登录下拉框-->
+                        <div id="nav-login-area">
+                            <p id="login2"><a href="" id="re-login1">欢迎回来[请登录]</a></p>
+                        <ul id="login-area-ul" style="width:200px;height:65px;margin:0 auto">
+                            <li><a href="#">我的收藏</a></li>
+                            <li><a href="#">我的订单</a></li>
+                            <li><a href="#">账户余额</a></li>
+                            <li><a href="#">我的优惠卷</a></li>
+                            <li><a href="#">我的唯品币</a></li>
+                            <li><a href="#">唯品金融</a></li>
+                        </ul>
+                        </div>
+                    </li>
+                    <li id="regist">
+                        <a href="#">注册</a>
+                        <span></span>
+                    </li>
+                    <li>
+                        <a href="#">我的订单</a>
+                        <span></span>
+                    </li>
+                    <li id="enshrine">
+                        <a href="#">我的收藏
+                            <i class="ico-triangle"></i>
+                        </a>
+                        <span></span>
+                        <div id="enshrine-area">
+                            <ul>
+                                <li><a href="">店家收藏&nbsp;(<b> 0</b>&nbsp;)</a></li>
+                                <li><a href="">商品收藏&nbsp;(<b> 0</b>&nbsp;)</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li id="club">
+                        <a href="#">会员俱乐部
+                            <i class="ico-triangle"></i>
+                        </a>
+                        <span></span>
+                        <div id="club-area">
+                            <ul>
+                                <li><a href="#">俱乐部首页</a></li>
+                                <li><a href="#">唯品币兑换</a></li>
+                                <li><a href="#">免费抽大奖</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li id="service">
+                        <a href="#">客户服务
+                            <i class="ico-triangle"></i>
+                        </a>
+                        <span></span>
+                        <div id="service-area">
+                            <ul>
+                                <li><a href="#">联系客服</a></li>
+                                <li><a href="#">帮助中心</a></li>
+                                <li><a href="#">服务中心</a></li>
+                                <li><a href="#">知识产权投诉</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li id="phone">
+                        <a href="#"><i class="ico-iphone"></i>手机版</a>
+                        <span></span>
+
+                        <div id="phone-area">
+                            <img src="../images/erweima.jpg"/>
+                            <p>扫一扫，优惠更多</p>
+                        </div>
+                    </li>
+                    <li id="more">
+                        <a href="#">更多
+                            <i class="ico-triangle"></i>
+                        </a>
+                        <div id="more-area">
+                        <p>关于我们</p>
+                            <ul id="more-area-ul">
+                                <li><a href="#">合作专区</a></li>
+                                <li><a href="#">品牌招商</a></li>
+                                <li><a href="#">官方微博</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- 页眉 ending-->
+    <!--logo start-->
+    <div class="header-logo">
+        <div class="header-logo-inner">
+            <div class="logo">
+                <a href="#"><img src="../images/logo.png" alt=""/></a>
+            </div>
+            <div style="width:520px;height:100px;float:right">
+                <div class="header-shop-car">
+                    <a href="shop-car.html">
+                        <span></span>
+                        <i>1</i>
+                        我的购物车</a>
+                </div>
+                <div class="header-logo-right">
+                    <img src="../images/1466131264367.png" alt=""/>
+                    <img src="../images/1466131266290.png" alt=""/>
+                    <img src="../images/1466131268726.png" alt=""/>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--logo ending-->
+    <!-- nav start-->
+    <nav class="main-nav">
+        <div class="main-nav-inner" style="width:1000px;">
+            <ul>
+                <li><a href="index.html" style="background:#bd1067">首页</a></li>
+                <li><a href="">唯品国际</a></li>
+                <li><a href="">母婴</a></li>
+                <li><a href="">居家</a></li>
+                <li><a href="men-index.html">男士</a></li>
+                <li><a href="">美妆</a></li>
+                <li><a href="life.html" >生活</a></li>
+                <li><a href="">金融</a></li>
+                <li id="more-group"><a href="">更多 <span class="ico-triangle"></span></a>
+                    <div class="more-group-area">
+                    <ul id="more-group-area-ul">
+                        <li>
+                            <img src="../images/1467620677036.jpg" alt=""/>
+                            <div><span>女装</span></div>
+                        </li>
+                        <li>
+                            <img src="../images/1467620750077.jpg" alt=""/>
+                            <div><span>鞋包</span></div>
+                        </li>
+                        <li>
+                            <img src="../images/1467620773404.jpg" alt=""/>
+                            <div><span>配饰</span></div>
+                        </li>
+                        <li>
+                            <img src="../images/1467620790247.jpg" alt=""/>
+                            <div><span>运动</span></div>
+                        </li>
+                        <li>
+                            <img src="../images/1467620809555.jpg" alt=""/>
+                            <div><span>汽车</span></div>
+                        </li>
+                        <li>
+                            <img src="../images/1467620841997.jpg" alt=""/>
+                            <div><span>爱奢品</span></div>
+                        </li>
+                    </ul>
+                    </div>
+                </li>
+                <li><a href=""><span class="yugao-icon"></span>预告</a></li>
+            </ul>
+            <div class="nav-category"><a href=""><span></span>分类</a></div>
+        </div>
+    </nav>
+</header>
+<div style="clear:both"></div>
+<!-- header end-->
+<!-- 商品展示 购买 start -->
+<div class="container">
+	<div class="connect">
+		<a href="">首页&gt;</a>
+		<a href="">爵士丹尼a.Jesdani&AJESDANI SILVER 时尚银色系列混合男装专场&gt;</a>
+		<span href="">爵士丹尼a.Jesdani&AJESDANI</span>
+	</div>
+	<div class="container-inner">
+		<div class="inner-left">
+			<div class="inner-Bimg">
+                <div class="fangdajing"></div>
+				<img src="../images/4bd8b367-19c3-4ab9-a322-4b0b6aa31d16.jpg" alt="">
+			</div>
+            <div class="datu"></div>
+			<div class="inner-Simg">
+				<ul>
+					<li>
+						<a href="">
+							<img src="../images/4bd8b367-19c3-4ab9-a322-4b0b6aa31d16.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="../images/1be91516-85c8-4c42-84a4-0e4a60e2db85.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="../images/65d4ff2b-1a8f-4fbe-8604-cc5d494c6e45.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="../images/5ae30d75-44b4-4cda-8944-f4d3e606b8c8.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="../images/b6e56398-b4dd-4681-a2b6-3c6783452adf.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="../images/74675526-4493-4011-9f1d-8bc8eb7ad100.jpg" alt="">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="product-info">
+				<span>商品编码：SW132021970</span>
+				<a href="">&nbsp;&nbsp;&nbsp;&nbsp;收藏商品</a>
+				<div class="share">
+					<i></i>
+					<span>分享到:</span>
+					<span class="arrow"></span>
+					<div class="share-icon">
+					<ul>
+						<li><a href="" class="area"></a></li>
+						<li><a href="" class="qq"></a></li>
+						<li><a href="" class="vxin"></a></li>
+						<li><a href="" class="wb"></a></li>
+						<div style="clear:both"></div>
+					</ul>
+				</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="inner-right">
+			<div class="brand-info">
+				<div class="info-left">
+					<p>简约百搭时尚纯羊毛毛衣</p>
+					<div id="end-time">
+						<span>剩余&nbsp;</span>
+						<span><i class="day">00</i>天</span>
+						<span><i class="hour">00</i>小时</span>
+						<span><i class="minute">00</i>分钟</span>
+						<span><i class="second">00</i>秒</span>
+						<span class="msecond" style="display:inline-block;width:40px;">00</span>
+					</div>
+				</div>
+			</div>
+            <div class="brand-price">
+                <span class="price">
+                    <i class="price-icon">￥</i><em class="now-price">178</em>
+                </span>
+                <span class="ago-zhekou">
+                    <i class="zhekou">1折</i>
+                    <em class="ago-time"><i>￥</i><span class="ago-price">1780</span></em>
+                </span>
+            </div>
+            <div class="freight">
+                <span>运费</span>
+                <i>￥</i><span>10</span>
+                <span>（订单满288免运费）</span>
+            </div>
+            <div class="size">
+                <span class="size-inner">尺码</span>
+                <span class="size-num">S</span>
+                <span class="size-num">M</span>
+                <div class="size-cheet">
+                    <span>查看尺码表</span>
+                    <i class="cheet-img"></i>
+                </div>
+            </div>
+            <div class="count">
+                <span class="count-inner">数量</span>
+                <span class="count-box">
+                    <span class="subtract count-class"></span>
+                    <span class="count-num count-class">1</span>
+                    <span class="add count-class"></span>
+                </span>
+                <span class="only-num">
+                    仅剩<i class="last-num">3</i>件,抓紧时间抢购哦!
+                </span>
+            </div>
+            <div class="shop-box">
+                <div class="shop-box-img">
+                    <a href="shop-car.html"></a>
+                </div>
+            </div>
+            <div class="vip">
+                <span>你是
+                    <i>铁牌</i>
+                    会员，购买最多可获得
+                    <i>89</i>
+
+                    个唯品币（会员等级越高唯品币越高唯品币越多）<em class="question">?</em>
+                </span>
+                <div class="question-list">
+                    <ul>
+                        <p>唯品币可用于在线支付时，直接抵现使用！会员等级越高可获得的唯品币更多哦。</p>
+                        <li>
+                            <i class="uv-6 question-data"></i>
+                            皇冠会员：该商品实付金额×
+                            <em class="point-tips">100%</em>
+                        </li>
+                        <li>
+                            <i class="uv-5 question-data"></i>
+                            钻石会员：该商品实付金额×
+                            <em class="point-tips">75%</em>
+                        </li>
+                        <li>
+                            <i class="uv-4 question-data"></i>
+                            金牌会员：该商品实付金额×
+                            <em class="point-tips">60%</em>
+                        </li>
+                        <li>
+                            <i class="uv-3 question-data"></i>
+                            银牌会员：该商品实付金额×
+                            <em class="point-tips">60%</em>
+                        </li>
+                        <li>
+                            <i class="uv-2 question-data"></i>
+                            铜牌会员：该商品实付金额×
+                            <em class="point-tips">50%</em>
+                        </li>
+                        <li>
+                            <i class="uv-1 question-data"></i>
+                            铁牌会员：该商品实付金额×
+                            <em class="point-tips">50%</em>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="safety">
+                <ul>
+                    <li class="safety-left"><i></i><a href="">商品放心挑</a></li>
+                    <li class="safety-right"><a href="">唯品会七天内无理由放心退（返运费）</a></li>
+                </ul>
+            </div>
+		</div>
+	</div>
+</div>
+<!-- 商品展示 购买 end -->
+<!-- 商品 详情 start -->
+
+<div class="pro-info">
+        <div style="width:1000px;height:36px;">
+        <div class="info-nav">
+            <ul>
+                <li class="info-nav1"><a href="">商品详情</a></li>
+                <li class="info-nav1"><a href="">商品推荐</a></li>
+                <li class="info-nav1"><a href="">商品咨询</a></li>
+                <li class="info-nav1"><a href="">关于我们</a></li>
+                <li id="pro-self"><a href=""></a></li>
+            </ul>
+        </div>
+        </div>
+<!-- 商品尺码 详情 图片 start -->
+        <div class="M-size M-conmon nav-top">
+                <p>
+                <span>商品尺码</span>
+                <i>SIZE</i>
+                </p>
+                <div class="M-tips">
+                    <p>TIPS</p>
+                    <ol>
+                        <li>1. 选购时，请综合参考尺码表中各项参数，有助于你选择到更合适的尺码。</li>
+                        <li>2.（只适用服装）平铺测量自己的合身服装尺寸作参考，对比选购更准确！</li>
+                        <li>3. 请放心挑选尺码，唯品7天退货无忧替你保驾护航。</li>
+                    </ol>
+                </div>
+                <div class="M-cheet">
+                    <h4>尺码对照表:</h4>
+                    <table cellspacing="1"
+                    cellpadding="0" bgcolor="#aaa" class="tb-size">
+                       <tr bgcolor="#dbdbdb" class='td1'>
+                          <td>尺码</td> 
+                          <td>号型</td> 
+                          <td>肩宽</td> 
+                          <td>胸围</td> 
+                          <td>衣长</td> 
+                          <td>袖长</td> 
+                       </tr>
+                        <tr bgcolor="#fff">
+                          <td>M</td> 
+                          <td>105cm</td> 
+                          <td>41</td> 
+                          <td>48</td> 
+                          <td>64</td> 
+                          <td>60.5</td> 
+                        </tr>
+                        <tr bgcolor="#fff">
+                          <td>S</td> 
+                          <td>100cm</td> 
+                          <td>40</td> 
+                          <td>46</td> 
+                          <td>63</td> 
+                          <td>59.5</td> 
+                        </tr>
+                        <tr rowspan="2" bgcolor="#fff" height="72">
+                            <td colspan="6" align="left">
+                                <span>温馨提示：</span>
+                                模特信息：身高187cm，三围97-78-97cm，试穿码数：L码。由于个人体型差异及穿衣习惯的不同，此推荐表仅供参考，请顾客结合产品尺码表和自身习惯选择合适的尺码。
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+        </div>
+        <div class="M-conmon">
+            <p>
+                <span>商品参数</span>
+                <i>DETAIL</i>
+            </p>
+            <div class="M-list">
+                <table class="tb-list"  cellspacing="1"
+                cellpadding="0"  bgcolor="#cdcdcd">
+                    <tr>
+                        <td class="tb-ltr-title">品牌分类：</td>
+                        <td class="tb-ltr-inner">AJESDANI SILVER</td>
+                        <td class="tb-ltr-title">商品名称：</td>
+                        <td class="tb-ltr-inner">简约百搭时尚纯羊毛毛衣</td>
+                    </tr>
+                    <tr>
+                        <td class="tb-ltr-title">商品分类：</td>
+                        <td class="tb-ltr-inner">男士毛衣</td>
+                        <td class="tb-ltr-title">产地：</td>
+                        <td class="tb-ltr-inner">广州</td>
+                    </tr>
+                    <tr height="85">
+                        <td class="tb-ltr-title">材质：</td>
+                        <td class="tb-ltr-inner">面料：100%羊毛</td>
+                        <td class="tb-ltr-title">洗涤说明：</td>
+                        <td class="tb-ltr-inner">手洗，最高洗涤温度40℃，不可漂白，悬挂晾干，不可翻转干燥，熨斗底板最高温度150℃，常规干洗。反面洗涤，用专用洗涤剂洗涤。</td>
+                    </tr>
+                    <tr>
+                        <td class="tb-ltr-title">面料：</td>
+                        <td class="tb-ltr-inner">羊毛</td>
+                        <td class="tb-ltr-title">袖长：</td>
+                        <td class="tb-ltr-inner">长袖</td>
+                    </tr>
+                    <tr>
+                        <td class="tb-ltr-title">适用季节：</td>
+                        <td class="tb-ltr-inner">不限</td>
+                        <td class="tb-ltr-title">衣长：</td>
+                        <td class="tb-ltr-inner">常规款</td>
+                    </tr>
+                    <tr>
+                        <td class="tb-ltr-title">版型</td>
+                        <td class="tb-ltr-inner">修身</td>
+                        <td class="tb-ltr-title">配件/备注：</td>
+                        <td class="tb-ltr-inner">图片中的各种配件均为拍摄搭配之用，是不包含在所售商品中的。</td>
+                    </tr>
+                     <tr>
+                        <td class="tb-ltr-title">商品编号：</td>
+                        <td class="tb-ltr-inner">SW132021970</td>
+                        <td class="tb-ltr-title"></td>
+                        <td class="tb-ltr-inner"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="M-conmon">
+            <p>
+                <span>商品展示</span>
+                <i>IMAGE</i>
+            </p>
+            <ul class="img-show">
+                <li>
+                    <img src="../images/4bd8b367-19c3-4ab9-a322-4b0b6aa31d16.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../images/1be91516-85c8-4c42-84a4-0e4a60e2db85.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../images/65d4ff2b-1a8f-4fbe-8604-cc5d494c6e45.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../images/5ae30d75-44b4-4cda-8944-f4d3e606b8c8.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../images/b6e56398-b4dd-4681-a2b6-3c6783452adf.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../images/74675526-4493-4011-9f1d-8bc8eb7ad100.jpg" alt="">
+                </li>
+            </ul>
+            <div style="clear:both"></div>
+        </div>
+<!-- 商品尺码 详情 图片 end -->
+<!-- 商品推荐 start -->
+        <div class="advice nav-top">
+            <p>商品推荐</p>
+            <h4>关注该商品的用户还关注了</h4>            
+            <div class="advice-inner">
+                <div class="ad-inner">
+                    <div class="ad-inner-page">
+                        <ul class="page-ul" style="display:block">
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/054a94d3-f4bc-4c8c-8bbc-6d925d5a81ac.jpg" alt="" id="ad-img1">
+                                        <img src="../images/1be7637f-6465-48ae-aa9d-aa7be2b459b8.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">商务系列 多色可选纯羊毛V领毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥438</span><span>（3折）</span>
+                                        <em>￥1480</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/054a94d3-f4bc-4c8c-8bbc-6d925d5a81ac.jpg" alt="" id="ad-img1">
+                                        <img src="../images/1be7637f-6465-48ae-aa9d-aa7be2b459b8.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">商务系列 多色可选纯羊毛V领毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥438</span><span>（3折）</span>
+                                        <em>￥1480</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/054a94d3-f4bc-4c8c-8bbc-6d925d5a81ac.jpg" alt="" id="ad-img1">
+                                        <img src="../images/1be7637f-6465-48ae-aa9d-aa7be2b459b8.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">商务系列 多色可选纯羊毛V领毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥438</span><span>（3折）</span>
+                                        <em>￥1480</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/054a94d3-f4bc-4c8c-8bbc-6d925d5a81ac.jpg" alt="" id="ad-img1">
+                                        <img src="../images/1be7637f-6465-48ae-aa9d-aa7be2b459b8.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">商务系列 多色可选纯羊毛V领毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥438</span><span>（3折）</span>
+                                        <em>￥1480</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/054a94d3-f4bc-4c8c-8bbc-6d925d5a81ac.jpg" alt="" id="ad-img1">
+                                        <img src="../images/1be7637f-6465-48ae-aa9d-aa7be2b459b8.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">商务系列 多色可选纯羊毛V领毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥438</span><span>（3折）</span>
+                                        <em>￥1480</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/054a94d3-f4bc-4c8c-8bbc-6d925d5a81ac.jpg" alt="" id="ad-img1">
+                                        <img src="../images/1be7637f-6465-48ae-aa9d-aa7be2b459b8.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">商务系列 多色可选纯羊毛V领毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥438</span><span>（3折）</span>
+                                        <em>￥1480</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/054a94d3-f4bc-4c8c-8bbc-6d925d5a81ac.jpg" alt="" id="ad-img1">
+                                        <img src="../images/1be7637f-6465-48ae-aa9d-aa7be2b459b8.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">商务系列 多色可选纯羊毛V领毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥438</span><span>（3折）</span>
+                                        <em>￥1480</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/054a94d3-f4bc-4c8c-8bbc-6d925d5a81ac.jpg" alt="" id="ad-img1">
+                                        <img src="../images/1be7637f-6465-48ae-aa9d-aa7be2b459b8.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">商务系列 多色可选纯羊毛V领毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥438</span><span>（3折）</span>
+                                        <em>￥1480</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/054a94d3-f4bc-4c8c-8bbc-6d925d5a81ac.jpg" alt="" id="ad-img1">
+                                        <img src="../images/1be7637f-6465-48ae-aa9d-aa7be2b459b8.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">商务系列 多色可选纯羊毛V领毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥438</span><span>（3折）</span>
+                                        <em>￥1480</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/054a94d3-f4bc-4c8c-8bbc-6d925d5a81ac.jpg" alt="" id="ad-img1">
+                                        <img src="../images/1be7637f-6465-48ae-aa9d-aa7be2b459b8.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">商务系列 多色可选纯羊毛V领毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥438</span><span>（3折）</span>
+                                        <em>￥1480</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <div style="clear:both"></div>
+                        </ul>
+                        <ul class="page-ul">
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/2f234b95-706e-4065-84ea-4fd6ce28eac5.jpg" alt="" id="ad-img1">
+                                        <img src="../images/75f1de31-a1cf-4bf0-9de0-7e280ac6c697.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">宝蓝棉质舒适圆领长袖毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥158</span><span>（2.3折）</span>
+                                        <em>￥699</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/2f234b95-706e-4065-84ea-4fd6ce28eac5.jpg" alt="" id="ad-img1">
+                                        <img src="../images/75f1de31-a1cf-4bf0-9de0-7e280ac6c697.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">宝蓝棉质舒适圆领长袖毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥158</span><span>（2.3折）</span>
+                                        <em>￥699</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/2f234b95-706e-4065-84ea-4fd6ce28eac5.jpg" alt="" id="ad-img1">
+                                        <img src="../images/75f1de31-a1cf-4bf0-9de0-7e280ac6c697.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">宝蓝棉质舒适圆领长袖毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥158</span><span>（2.3折）</span>
+                                        <em>￥699</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/2f234b95-706e-4065-84ea-4fd6ce28eac5.jpg" alt="" id="ad-img1">
+                                        <img src="../images/75f1de31-a1cf-4bf0-9de0-7e280ac6c697.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">宝蓝棉质舒适圆领长袖毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥158</span><span>（2.3折）</span>
+                                        <em>￥699</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/2f234b95-706e-4065-84ea-4fd6ce28eac5.jpg" alt="" id="ad-img1">
+                                        <img src="../images/75f1de31-a1cf-4bf0-9de0-7e280ac6c697.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">宝蓝棉质舒适圆领长袖毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥158</span><span>（2.3折）</span>
+                                        <em>￥699</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/2f234b95-706e-4065-84ea-4fd6ce28eac5.jpg" alt="" id="ad-img1">
+                                        <img src="../images/75f1de31-a1cf-4bf0-9de0-7e280ac6c697.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">宝蓝棉质舒适圆领长袖毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥158</span><span>（2.3折）</span>
+                                        <em>￥699</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/2f234b95-706e-4065-84ea-4fd6ce28eac5.jpg" alt="" id="ad-img1">
+                                        <img src="../images/75f1de31-a1cf-4bf0-9de0-7e280ac6c697.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">宝蓝棉质舒适圆领长袖毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥158</span><span>（2.3折）</span>
+                                        <em>￥699</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/2f234b95-706e-4065-84ea-4fd6ce28eac5.jpg" alt="" id="ad-img1">
+                                        <img src="../images/75f1de31-a1cf-4bf0-9de0-7e280ac6c697.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">宝蓝棉质舒适圆领长袖毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥158</span><span>（2.3折）</span>
+                                        <em>￥699</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/2f234b95-706e-4065-84ea-4fd6ce28eac5.jpg" alt="" id="ad-img1">
+                                        <img src="../images/75f1de31-a1cf-4bf0-9de0-7e280ac6c697.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">宝蓝棉质舒适圆领长袖毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥158</span><span>（2.3折）</span>
+                                        <em>￥699</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/2f234b95-706e-4065-84ea-4fd6ce28eac5.jpg" alt="" id="ad-img1">
+                                        <img src="../images/75f1de31-a1cf-4bf0-9de0-7e280ac6c697.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">宝蓝棉质舒适圆领长袖毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥158</span><span>（2.3折）</span>
+                                        <em>￥699</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <div style="clear:both"></div>
+                        </ul>
+                        <ul class="page-ul">
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/9acd0175-f848-42bc-96e4-cdf98acb141f.jpg" alt="" id="ad-img1">
+                                        <img src="../images/a729485c-9653-45b0-b96f-d91a7cff402d.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">宝蓝棉质舒适圆领长袖毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥158</span><span>（2.3折）</span>
+                                        <em>￥699</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/9acd0175-f848-42bc-96e4-cdf98acb141f.jpg" alt="" id="ad-img1">
+                                        <img src="../images/a729485c-9653-45b0-b96f-d91a7cff402d.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">宝蓝棉质舒适圆领长袖毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥158</span><span>（2.3折）</span>
+                                        <em>￥699</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/9acd0175-f848-42bc-96e4-cdf98acb141f.jpg" alt="" id="ad-img1">
+                                        <img src="../images/a729485c-9653-45b0-b96f-d91a7cff402d.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">宝蓝棉质舒适圆领长袖毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥158</span><span>（2.3折）</span>
+                                        <em>￥699</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/9acd0175-f848-42bc-96e4-cdf98acb141f.jpg" alt="" id="ad-img1">
+                                        <img src="../images/a729485c-9653-45b0-b96f-d91a7cff402d.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">宝蓝棉质舒适圆领长袖毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥158</span><span>（2.3折）</span>
+                                        <em>￥699</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/9acd0175-f848-42bc-96e4-cdf98acb141f.jpg" alt="" id="ad-img1">
+                                        <img src="../images/a729485c-9653-45b0-b96f-d91a7cff402d.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">宝蓝棉质舒适圆领长袖毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥158</span><span>（2.3折）</span>
+                                        <em>￥699</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/9acd0175-f848-42bc-96e4-cdf98acb141f.jpg" alt="" id="ad-img1">
+                                        <img src="../images/a729485c-9653-45b0-b96f-d91a7cff402d.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">宝蓝棉质舒适圆领长袖毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥158</span><span>（2.3折）</span>
+                                        <em>￥699</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/9acd0175-f848-42bc-96e4-cdf98acb141f.jpg" alt="" id="ad-img1">
+                                        <img src="../images/a729485c-9653-45b0-b96f-d91a7cff402d.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">宝蓝棉质舒适圆领长袖毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥158</span><span>（2.3折）</span>
+                                        <em>￥699</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/9acd0175-f848-42bc-96e4-cdf98acb141f.jpg" alt="" id="ad-img1">
+                                        <img src="../images/a729485c-9653-45b0-b96f-d91a7cff402d.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">宝蓝棉质舒适圆领长袖毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥158</span><span>（2.3折）</span>
+                                        <em>￥699</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/9acd0175-f848-42bc-96e4-cdf98acb141f.jpg" alt="" id="ad-img1">
+                                        <img src="../images/a729485c-9653-45b0-b96f-d91a7cff402d.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">宝蓝棉质舒适圆领长袖毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥158</span><span>（2.3折）</span>
+                                        <em>￥699</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="ad-img">
+                                        <img src="../images/9acd0175-f848-42bc-96e4-cdf98acb141f.jpg" alt="" id="ad-img1">
+                                        <img src="../images/a729485c-9653-45b0-b96f-d91a7cff402d.jpg" alt="" id="ad-img2">
+                                    </div>
+                                    <p class="ad-img-item">宝蓝棉质舒适圆领长袖毛衣</p>
+                                    <div class="ad-item-price">
+                                        <span class="ad-nowp">￥158</span><span>（2.3折）</span>
+                                        <em>￥699</em>
+                                    </div>
+                                </a>
+                            </li>
+                            <div style="clear:both"></div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tcdPageCode"></div>
+        <script>
+        $(".tcdPageCode").createPage({
+            pageCount:3,
+            current:1,
+            backFn:function(num){
+                var leftNum =  (num-1)*(-980)+"px"
+                $(".ad-inner-page").animate({left:leftNum},300)
+            }
+        });
+        </script>
+        </div>
+<!-- 商品推荐 end -->
+<!-- 商品咨询 start -->
+        <div class="consult nav-top">
+            <p>商品咨询</p>
+            <div class="consult-list">
+                <h4>购买前如有问题，请向唯品会咨询。<a href="">联系客服</a></h4>
+                <ul>
+                    <li>
+                        <p>11111111111111111111111111</p>
+                        <p>22222222222222222222222222</p>
+                    </li>
+                    <li>
+                        <p>11111111111111111111111111</p>
+                        <p>22222222222222222222222222</p>
+                    </li>
+                    <li>
+                        <p>11111111111111111111111111</p>
+                        <p>22222222222222222222222222</p>
+                    </li>
+                    <li>
+                        <p>11111111111111111111111111</p>
+                        <p>22222222222222222222222222</p>
+                    </li>
+                    <li>
+                        <p>11111111111111111111111111</p>
+                        <p>22222222222222222222222222</p>
+                    </li>
+                    <li>
+                        <p>11111111111111111111111111</p>
+                        <p>22222222222222222222222222</p>
+                    </li>
+                    <li>
+                        <p>11111111111111111111111111</p>
+                        <p>22222222222222222222222222</p>
+                    </li>
+                    <li>
+                        <p>11111111111111111111111111</p>
+                        <p>22222222222222222222222222</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="back-list">
+                <h4>退货流程如下：</h4>
+                <p><img src="../images/goods_return_img_v1.png" alt=""></p>
+            </div>
+        </div>
+<!-- 商品咨询 end -->
+<!-- 关于我们 start -->
+        <div class="about-us nav-top">
+            <p>关于我们</p>
+            <ul class="about-us-title">
+                <li><a href="" style="color:#f10180">正品保证</a></li>
+                <li><a href="">万千信赖</a></li>
+                <li><a href="">七天放心退</a></li>
+                <li><a href="">快速配送</a></li>
+                <li><a href="">金牌客服</a></li>
+                <li><a href="">精选品牌</a></li>
+                <li><a href="">美国上市，信心保证</a></li>
+            </ul>
+            <div class="about-us-img">
+                <div class="ab-u-i" style="opacity:1"><img src="../images/detail_about_zp.jpg" alt=""></div>
+                <div class="ab-u-i"><img src="../images/detail_about_xl.jpg" alt=""></div>
+                <div class="ab-u-i"><img src="../images/detail_about_tk.jpg" alt=""></div>
+                <div class="ab-u-i"><img src="../images/detail_about_ps.jpg" alt=""></div>
+                <div class="ab-u-i"><img src="../images/detail_about_kf.jpg" alt=""></div>
+                <div class="ab-u-i"><img src="../images/detail_about_pp.jpg" alt=""></div>
+                <div class="ab-u-i"><img src="../images/detail_about_yj.jpg" alt=""></div>
+            </div>
+        </div>
+<!-- 关于我们 end -->
+</div>
+<!-- 商品 详情 end -->
+
+<!-- 底部 start -->
+<footer>
+    <footer class="footer-inner">
+        <div class="footer-top"></div>
+        <ul id="ul-list">
+            <li>
+                <p>服务保障</p>
+                <ul>
+                    <li><a href="">正品保证</a></li>
+                    <li><a href="">7天无理由放心退</a></li>
+                    <li><a href="">退货返运费</a></li>
+                    <li><a href="">7×15小时客户服务</a></li>
+                </ul>
+            </li>
+           <li>
+                <p>购物指南</p>
+                <ul>
+                    <li><a href="">导购演示</a></li>
+                    <li><a href="">订单操作</a></li>
+                    <li><a href="">会员注册</a></li>
+                    <li><a href="">账户管理</a></li>
+                    <li><a href="">收获样品</a></li>
+                    <li><a href="">会员等级</a></li>
+                </ul>
+            </li>
+            <li>
+                <p>支付方式</p>
+                <ul>
+                    <li><a href="">快捷支付</a></li>
+                    <li><a href="">23家主流网银支付</a></li>
+                    <li><a href="">货到付款</a></li>
+                    <li><a href="">支付宝，银联等支付</a></li>
+                    <li><a href="">信用卡支付</a></li>
+                    <li><a href="">唯品钱包支付</a></li>
+                </ul>
+            </li>
+            <li>
+                <p>配送方式</p>
+                <ul>
+                    <li><a href="">全场满288元免运费</a></li>
+                    <li><a href="">配送范围以及运费</a></li>
+                    <li><a href="">验货与签收</a></li>
+                </ul>
+            </li>
+            <li>
+                <p>售后服务</p>
+                <ul>
+                    <li><a href="">退货政策</a></li>
+                    <li><a href="">退货流程</a></li>
+                    <li><a href="">退款方式和时效</a></li>
+                </ul>
+            </li>
+            <li id="ul-list-last">
+                <div>会员APP二维码</div>
+                <div style="padding:5px 0px;border:0"><img src="../images/page_bottom_dl_n.png" alt=""></div>
+                <div>下载移动APP</div>
+            </li>
+        </ul>
+        <p id="footer-info-link">
+            <a href="">关于我们</a>
+            <a href="">|&ensp;About us</a>
+            <a href="">|&ensp;Investor Relations</a>
+            <a href="">|&ensp;媒体报道</a>
+            <a href="">|&ensp;品牌招商</a>
+            <a href="">|&ensp;唯品诚聘</a>
+            <a href="">|&ensp;365爱心基金</a>
+            <a href="">|&ensp;唯品卡</a>
+            <a href="">|&ensp;唯品地图</a>
+            <a href="">|&ensp;品牌大全</a>
+            <a href="">|&ensp;联系我们</a>
+        </p>
+        <div id="footer-dibu">
+            <p style="padding-top:20px;">
+            Copyright © 2008-2016 vip.com，All Rights Reserved <a href="">粤ICP备08114786号</a><a href="">&nbsp;ICP经营许可证：粤B2-20080329 </a><a href="">网络文化经营许可证：粤网文〔2015〕1528-229</a>
+            </p>
+            <p><a id="police" href=""><i></i>粤公网安备 44010302111111号</a>  使用本网站即表示接受<a href="">唯品会用户协议</a>。版权所有 <a href="">&nbsp;广州唯品会信息科技有限公司</a></p>
+        </div>
+        <div id="footer-img">
+            <a href="" class="footer-img1"></a>
+            <a href="" class="footer-img2"></a>
+            <a href="" class="footer-img3"></a>
+            <a href="" class="footer-img4"></a>
+            <a href="" class="footer-img5"></a>
+            <a href="" class="footer-img6"></a>
+            <a href="" class="footer-img7"></a>
+        </div>
+    </footer>
+</footer>
+<!-- 底部 ending -->
+<!-- 右边的侧栏 start -->
+<div class="right-side">
+    <div class="right-side-inner">
+        <ul class="right-side-ul1">
+            <li class="li1">
+                <div class="li1-pop">
+                    <p><img src="../images/my_cnt_pic.jpg" alt="">
+                        <span>请<a href="">[登录]</a></span>
+                    </p>
+                    <ul>
+                        <li style="border-right:1px solid #ccc;">我的订单</li>
+                        <li>我的消息</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="li2 lis">
+                <div class="li-pop">我的优惠劵</div>
+            </li>
+            <li class="li3 lis">
+                <div class="li-pop">我收藏的品牌</div>
+            </li>
+            <li class="li4 lis">
+                <div class="li-pop">我收藏的商品</div>
+            </li>
+        </ul>
+        <div class="right-side-shop">
+            <a href="shop-car.html">
+            <div class="right-side-shop1"></div>
+            <div class="right-side-shop2">购物袋</div>
+            <div class="right-side-shop3">1</div>
+            </a>
+        </div>
+        <ul class="right-side-ul2">
+            <li class="li5 lis2">
+                <div class="li-pop1">会员反馈</div>
+            </li>
+            <li class="li6 lis2">
+                <div class="li-pop1 back-top">回到顶部</div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- 右边的侧栏 ending -->
+<!-- 打开的页面 -->
+<div class="open">
+    <div class="open-inner">
+        <span class="close"></span>
+        <img src="../images/222.png" alt="">
+    </div>
+<!-- 打开的页面 -->
+</div>
+</body>
+</html>

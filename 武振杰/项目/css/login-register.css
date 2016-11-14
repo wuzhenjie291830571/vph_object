@@ -1,0 +1,59 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:ahoma,arial,Hiragino Sans GB,WenQuanYi Micro Hei,\5FAE\8F6F\96C5\9ED1,\5B8B\4F53,sans-serif;
+	color: #333;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	width:100%;
+}
+.login-inner{
+	width:1000px;
+	height:500px;
+	margin:40px auto;
+}
+/* login 的顶部 图片 */
+header{
+	width:100%;
+	height:100px;
+}
+.header-left{
+	width:313px;
+	height:53px;
+	float: left;
+	background:url("../images/sprite1.png") no-repeat;
+}
+.header-left>a{
+	display: block;
+	width: 100%;
+	height:100%;
+}
+.header-right{
+	width:445px;
+	height:28px;
+	float: right;
+	margin-top:10px;
+	background:url("../images/sprite1.png") no-repeat -317px 0px;
+}
+/* 登录的主体部分 */
+.contain{
+	width:1000px;
+	height:600px;
+	background: url("../images/54a2bd03362a4a0cba15d38e041e329b.jpg") no-repeat center center;
+}
+/* 底部 */
+footer{
+	width:1000px;
+	height:18px;
+}
+footer>p{
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+}
